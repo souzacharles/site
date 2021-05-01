@@ -1,9 +1,9 @@
 {
-  "name": "Academic",
-  "short_name": "Academic",
-  "lang": "en-us",
-  "theme_color": "#1565c0",
-  "background_color": "#1565c0",
+  "name": "Charles Souza",
+  "short_name": "Charles Souza",
+  "lang": "pt",
+  "theme_color": "#795548",
+  "background_color": "#795548",
   "icons": [{
     "src": "/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",
