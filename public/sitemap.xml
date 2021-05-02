@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/courses/example/python/</loc>
+    <loc>/courses/macroeconomia/python/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/courses/example/visualization/</loc>
+    <loc>/courses/macroeconomia/visualization/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/courses/example/stats/</loc>
+    <loc>/courses/macroeconomia/stats/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
@@ -23,13 +23,31 @@
     <loc>/courses/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/courses/example/</loc>
+    <loc>/courses/macroeconomia/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/academic/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/authors/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/charles-souza/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/inflacao/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/courses/macroeconomia/inflacao1/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/macroeconomia/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/courses/macroeconomia/pib/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/academic/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
@@ -42,9 +60,6 @@
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/getting-started/</loc>
