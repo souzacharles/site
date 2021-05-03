@@ -5,7 +5,7 @@
     <link>/tag/inflacao/</link>
       <atom:link href="/tag/inflacao/index.xml" rel="self" type="application/rss+xml" />
     <description>Inflação</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hu07acfe0edfa07a39670764eba332f45f_49366_512x512_fill_lanczos_center_2.png</url>
       <title>Inflação</title>
@@ -13,51 +13,28 @@
     </image>
     
     <item>
-      <title>Inflação</title>
-      <link>/courses/macroeconomia/inflacao1/</link>
-      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>/courses/macroeconomia/inflacao1/</guid>
+      <title>Fundamentos da Macroeconomia</title>
+      <link>/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      <guid>/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos/</guid>
       <description>
-&lt;script src=&#34;/courses/macroeconomia/inflacao1/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
 
 
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:fluxo&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;fluxo.jpg&#34; alt=&#34;Economia fechada sem formação de capital&#34; width=&#34;600px&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figura 1: Economia fechada sem formação de capital
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
-&lt;div id=&#34;introdução&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Introdução&lt;/h1&gt;
+&lt;div id=&#34;inflação&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Inflação&lt;/h1&gt;
 &lt;p&gt;Textos de referência Vasconcellos e Garcia &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Vasconcellos2018&#34; role=&#34;doc-biblioref&#34;&gt;2018, p. 221, 302–314&lt;/a&gt;)&lt;/span&gt;; Lopes et al. &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Lopes2018&#34; role=&#34;doc-biblioref&#34;&gt;2018, p. 11–13, 56&lt;/a&gt;)&lt;/span&gt;; Lopes et al. &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Lopes2008&#34; role=&#34;doc-biblioref&#34;&gt;2008, p. 294–306&lt;/a&gt;)&lt;/span&gt; e Mankiw &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Mankiw2010&#34; role=&#34;doc-biblioref&#34;&gt;2010, p. 25–28, 301–303&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;O presente arquivo trata dos principais tópicos abordados na disciplina &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;Princípios de Economia – GED-72/2020&lt;/strong&gt;&lt;/span&gt;. Em especial, objetiva-se reforçar os preceitos e conceitos da &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;Ciência Macroeconômica&lt;/strong&gt;&lt;/span&gt; apresentados em sala de aula (ou em videoaulas).&lt;/p&gt;
-&lt;style type=&#34;text/css&#34;&gt;
-
-body {text-align: justify},
-td {
-   font-size: 15px;
-}
-code.r{
-  font-size: 12px;
-}
-pre {
-  font-size: 12px
-}
-h1,h2,h3,h4,h5,h6{
-  font-size: 25px;
-}
-h2,h3,h4,h5,h6{
-  font-size: 20px;
-}
-h3,h4,h5,h6{
-  font-size: 18px;
-}
-
-
-blockquote {
-    padding: 10px 20px;
-    margin: 0 0 20px;
-    font-size: 14px;
-    border-left: 5px solid #ffd700;
-}
-
-
-&lt;/style&gt;
 &lt;p&gt;O objetivo deste &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;resumo&lt;/strong&gt;&lt;/span&gt; é apresentar conceitos básicos sobre inflação e evidenciar os principais índices de preços empregados no Brasil. &lt;!-- e, ademais,  demonstrar  algumas técnicas para deflacionar séries temporais. Para esse fim, utilizar-se-á o programa Excel da Microsoft e, principalmente, o \textit{software} estatístico \href{https://www.r-project.org/}{\faRProject}.\footnote{O conteúdo prático tem como objetivo consolidar os conceitos teóricos sobre inflação, não haverá questões sobre os \textit{softwares} na avaliação de macroeconomia.}--&gt;&lt;/p&gt;
 &lt;p&gt;O que é inflação? De modo resumido, a inflação é o processo de crescimento &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;contínuo&lt;/strong&gt;&lt;/span&gt; e &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;generalizado&lt;/strong&gt;&lt;/span&gt; dos preços numa economia. A taxa de inflação é um indicador do aumento percentual do nível geral de preços.&lt;/p&gt;
 
@@ -68,11 +45,11 @@ blockquote {
 &lt;span class=&#34;math inline&#34;&gt;\(\textrm{I} = \textrm{Índice Geral de Preços}\)&lt;/span&gt;&lt;/p&gt;
 &lt;/font&gt;
 &lt;/div&gt;
-&lt;p&gt;A Figura &lt;a href=&#34;#fig:ipcaindice&#34;&gt;1&lt;/a&gt; mostra o número-índice, a varição mensal e a variação anual da inflação no Brasil entre 2010 e início de 2021 — Tabela n.º 1737 do Sistema IBGE de Recuperação Automática &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-sidra2021&#34; role=&#34;doc-biblioref&#34;&gt;SIDRA, 2021&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;A Figura &lt;a href=&#34;#fig:ipcaindice&#34;&gt;2&lt;/a&gt; mostra o número-índice, a varição mensal e a variação anual da inflação no Brasil entre 2010 e início de 2021 — Tabela n.º 1737 do Sistema IBGE de Recuperação Automática &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-sidra2021&#34; role=&#34;doc-biblioref&#34;&gt;SIDRA, 2021&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:ipcaindice&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;figure/ipcaindice-1.png&#34; alt=&#34;Número Índice, variação mensal e variação anual da inflação --- 2010--2021&#34; width=&#34;864&#34; /&gt;
+&lt;img src=&#34;/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/ipcaindice-1.png&#34; alt=&#34;Número Índice, variação mensal e variação anual da inflação --- 2010--2021&#34; width=&#34;864&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
-Figura 1: Número Índice, variação mensal e variação anual da inflação — 2010–2021
+Figura 2: Número Índice, variação mensal e variação anual da inflação — 2010–2021
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -118,16 +95,16 @@ a &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;méd
 &lt;p&gt;A base de ponderação dos índices de preço ao consumidor calculados pelo IBGE é obtida através de pesquisas de orçamento familiar que levantam o peso de cada produto no consumo das famílias.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-7&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;figure/unnamed-chunk-7-1.png&#34; alt=&#34;Peso dos grupos no IPCA&#34; width=&#34;864&#34; /&gt;
+&lt;img src=&#34;/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/unnamed-chunk-7-1.png&#34; alt=&#34;Peso dos grupos no IPCA&#34; width=&#34;864&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
-Figura 2: Peso dos grupos no IPCA
+Figura 3: Peso dos grupos no IPCA
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-8&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;figure/unnamed-chunk-8-1.png&#34; alt=&#34;Contribuição dos Grupos do IPCA para a Inflação Mensal&#34; width=&#34;864&#34; /&gt;
+&lt;img src=&#34;/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/unnamed-chunk-8-1.png&#34; alt=&#34;Contribuição dos Grupos do IPCA para a Inflação Mensal&#34; width=&#34;864&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
-Figura 3: Contribuição dos Grupos do IPCA para a Inflação Mensal
+Figura 4: Contribuição dos Grupos do IPCA para a Inflação Mensal
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -140,123 +117,123 @@ Figura 3: Contribuição dos Grupos do IPCA para a Inflação Mensal
 &lt;span class=&#34;math inline&#34;&gt;\(\textrm{Onde } i \textrm{ pode ser 10, M ou DI.}\)&lt;/span&gt;&lt;/p&gt;
 &lt;/font&gt;
 &lt;/div&gt;
-&lt;p&gt;A Figura &lt;a href=&#34;#fig:indicesgerais&#34;&gt;4&lt;/a&gt; demonstra a variação percentual dos principais índices da Fundação Getúlio Vargas entre 2010 e início de 2021.&lt;/p&gt;
+&lt;p&gt;A Figura &lt;a href=&#34;#fig:indicesgerais&#34;&gt;5&lt;/a&gt; demonstra a variação percentual dos principais índices da Fundação Getúlio Vargas entre 2010 e início de 2021.&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:indicesgerais&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;figure/indicesgerais-1.png&#34; alt=&#34;Variação percentual dos principais índices da FGV --- 2010--2021&#34; width=&#34;864&#34; /&gt;
+&lt;img src=&#34;/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/indicesgerais-1.png&#34; alt=&#34;Variação percentual dos principais índices da FGV --- 2010--2021&#34; width=&#34;864&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
-Figura 4: Variação percentual dos principais índices da FGV — 2010–2021
+Figura 5: Variação percentual dos principais índices da FGV — 2010–2021
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
-&lt;p&gt;A Figura &lt;a href=&#34;#fig:ipcaigpm&#34;&gt;5&lt;/a&gt; mostra a taxa de varição anual do IGP-M e do IPCA entre 2010 e início de 2021.&lt;/p&gt;
+&lt;p&gt;A Figura &lt;a href=&#34;#fig:ipcaigpm&#34;&gt;6&lt;/a&gt; mostra a taxa de varição anual do IGP-M e do IPCA entre 2010 e início de 2021.&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:ipcaigpm&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;figure/ipcaigpm-1.png&#34; alt=&#34;IPCA $vs$ IGP-M&#34; width=&#34;864&#34; /&gt;
+&lt;img src=&#34;/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/ipcaigpm-1.png&#34; alt=&#34;IPCA $vs$ IGP-M&#34; width=&#34;864&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
-Figura 5: IPCA &lt;span class=&#34;math inline&#34;&gt;\(vs\)&lt;/span&gt; IGP-M
+Figura 6: IPCA &lt;span class=&#34;math inline&#34;&gt;\(vs\)&lt;/span&gt; IGP-M
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;A Tabela &lt;a href=&#34;#tab:tabelaindice&#34;&gt;1&lt;/a&gt; traz um resumo com os principais índices empregados no país.&lt;/p&gt;
-&lt;table&gt;
+&lt;table class=&#34;table table-striped table-hover table-condensed table-responsive&#34; style=&#34;width: auto !important; margin-left: auto; margin-right: auto;&#34;&gt;
 &lt;caption&gt;
 &lt;span id=&#34;tab:tabelaindice&#34;&gt;Tabela 1: &lt;/span&gt;Exemplos de Índices de Preços Produzidos no Brasil
 &lt;/caption&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th style=&#34;text-align:left;&#34;&gt;
+&lt;th style=&#34;text-align:left;color: gray !important;&#34;&gt;
 Instituto
 &lt;/th&gt;
-&lt;th style=&#34;text-align:left;&#34;&gt;
+&lt;th style=&#34;text-align:left;color: gray !important;&#34;&gt;
 Índice de Preços
 &lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 IBGE
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 IPCA (Índice Nacional de Preços ao Consumidor Amplo)
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 IBGE
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 INPC (Índice Nacional de Preços ao Consumidor)
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 IBGE
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 IPP (Índice de Preços ao Produtor)
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 IBGE
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 SINAPI (Sistema Nacional de Pesquisa de Custos e Índices da Construção Civil)
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 Ibre-FGV
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 IGP-M, IGP-DI e IGP-10
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 Ibre-FGV
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 Índice de Preços Pagos pelos Produtores Rurais (IPP)
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 Ibre-FGV
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 IPC-3i (Índice de Preços ao Consumidor da Terceira Idade)
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 FIPE
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 IPC-Fipe
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 FIPE
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 Fipe-Zap
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 Dieese
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 Cesta Básica Nacional
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 Sinduscon
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 Custo Unitário Básico (CUB) da construção civil do estado de São Paulo
 &lt;/td&gt;
 &lt;/tr&gt;
@@ -284,14 +261,14 @@ Custo Unitário Básico (CUB) da construção civil do estado de São Paulo
 &lt;/font&gt;
 &lt;/div&gt;
 &lt;p&gt;A função mostra que preço real do produto é igual à relação entre os índices de preços nos períodos &lt;em&gt;j:i&lt;/em&gt; multiplicado pelo preço nominal.&lt;/p&gt;
-&lt;p&gt;A Figura &lt;a href=&#34;#fig:deflacionamento&#34;&gt;6&lt;/a&gt; evidencia o PIB do Brasil em valores nominais e reais.&lt;/p&gt;
+&lt;p&gt;A Figura &lt;a href=&#34;#fig:deflacionamento&#34;&gt;7&lt;/a&gt; evidencia o PIB do Brasil em valores nominais e reais.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:deflacionamento&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;figure/deflacionamento-1.png&#34; alt=&#34;Produto Interno Bruto Nominal e Real&#34; width=&#34;864&#34; /&gt;
+&lt;img src=&#34;/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/deflacionamento-1.png&#34; alt=&#34;Produto Interno Bruto Nominal e Real&#34; width=&#34;864&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
-Figura 6: Produto Interno Bruto Nominal e Real
+Figura 7: Produto Interno Bruto Nominal e Real
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;
@@ -342,6 +319,10 @@ O empresário precisa mensurar, de alguma maneira, qual é o retorno que esse in
 &lt;p&gt;[…]“Segundo esse conceito, os custos não devem ser considerados absolutos, mas iguais a uma segunda melhor oportunidade de benefícios não aproveitada. Ou seja,
 quando a decisão para as possibilidades de utilização de A exclui a escolha de um melhor B, podem-se considerar os benefícios não aproveitados decorrentes de B como custos de oportunidade” &lt;span class=&#34;citation&#34;&gt;(SANDRONI, &lt;a href=&#34;#ref-sandroni1999&#34; role=&#34;doc-biblioref&#34;&gt;1999&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;exercícios&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Exercícios&lt;/h1&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -351,15 +332,46 @@ quando a decisão para as possibilidades de utilização de A exclui a escolha d
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;referências&#34; class=&#34;section level1 unnumbered&#34;&gt;
+&lt;div id=&#34;referências&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Referências&lt;/h1&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+
+body {text-align: justify},
+td {
+   font-size: 15px;
+}
+code.r{
+  font-size: 12px;
+}
+pre {
+  font-size: 12px
+}
+h1,h2,h3,h4,h5,h6{
+  font-size: 25px;
+}
+h2,h3,h4,h5,h6{
+  font-size: 20px;
+}
+h3,h4,h5,h6{
+  font-size: 18px;
+}
+
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 14px;
+    border-left: 5px solid #ffd700;
+}
+
+
+&lt;/style&gt;
 &lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body&#34; entry-spacing=&#34;1&#34;&gt;
 &lt;div id=&#34;ref-Lopes2018&#34; class=&#34;csl-entry&#34;&gt;
-LOPES, Luiz Martins; BRAGA, Márcio Bobik; VASCONCELLOS, Marco Antonio Sandoval de; TONETO, Rudinei, Junior. &lt;strong&gt;Macroeconomia: &lt;span&gt;Teoria e Aplicações de Política Econômica&lt;/span&gt;&lt;/strong&gt;. 4. ed. São Paulo: Atlas, 2018.
+LOPES, Luiz Martins e colab. &lt;strong&gt;Macroeconomia: &lt;span&gt;Teoria e Aplicações de Política Econômica&lt;/span&gt;&lt;/strong&gt;. 4. ed. São Paulo: Atlas, 2018.
 &lt;/div&gt;
 &lt;div id=&#34;ref-Lopes2008&#34; class=&#34;csl-entry&#34;&gt;
-LOPES, Luiz Martins; VASCONCELLOS, Marco Antonio Sandoval de; GREMAUD, Amaury Patrick; LUQUE, Carlos Antonio; MARTONE, Celso Luiz; BRAGA, Márcio Bobik; TONETO, Rudinei, Junior; PESSOA, Samuel de Abreu; SCHOR, Silvia Maria. &lt;strong&gt;&lt;span&gt;Manual de Macroeconomia&lt;/span&gt;: &lt;span&gt;Básico e Intermediário&lt;/span&gt;&lt;/strong&gt;. 3. ed. São Paulo: Atlas, 2008.
+LOPES, Luiz Martins e colab. &lt;strong&gt;&lt;span&gt;Manual de Macroeconomia&lt;/span&gt;: &lt;span&gt;Básico e Intermediário&lt;/span&gt;&lt;/strong&gt;. 3. ed. São Paulo: Atlas, 2008.
 &lt;/div&gt;
 &lt;div id=&#34;ref-Mankiw2010&#34; class=&#34;csl-entry&#34;&gt;
 MANKIW, N. Gregory. &lt;strong&gt;Macroeconomia&lt;/strong&gt;. 7. ed. Rio de Janeiro: LTC, 2010.
@@ -368,10 +380,10 @@ MANKIW, N. Gregory. &lt;strong&gt;Macroeconomia&lt;/strong&gt;. 7. ed. Rio de Ja
 SANDRONI, Paulo. &lt;strong&gt;Nov&lt;span&gt;ı́&lt;/span&gt;ssimo dicion&lt;span&gt;á&lt;/span&gt;rio de economia&lt;/strong&gt;. São Paulo: Editora Best Seller, 1999.
 &lt;/div&gt;
 &lt;div id=&#34;ref-sidra2021&#34; class=&#34;csl-entry&#34;&gt;
-SIDRA. &lt;strong&gt;Sistema IBGE de Recupera&lt;span&gt;ç&lt;/span&gt;ão Autom&lt;span&gt;á&lt;/span&gt;tica - SIDRA&lt;/strong&gt;. Bras&lt;span&gt;í&lt;/span&gt;lia: IBGE, 2021. Disponível em: &lt;a href=&#34;https://sidra.ibge.gov.br&#34;&gt;https://sidra.ibge.gov.br&lt;/a&gt;.
+SIDRA. &lt;strong&gt;Sistema IBGE de Recupera&lt;span&gt;ç&lt;/span&gt;ão Autom&lt;span&gt;á&lt;/span&gt;tica - SIDRA&lt;/strong&gt;. Bras&lt;span&gt;í&lt;/span&gt;lia: IBGE, 2021. Disponível em: &amp;lt;&lt;a href=&#34;https://sidra.ibge.gov.br&#34;&gt;https://sidra.ibge.gov.br&lt;/a&gt;&amp;gt;.
 &lt;/div&gt;
 &lt;div id=&#34;ref-Vasconcellos2018&#34; class=&#34;csl-entry&#34;&gt;
-VASCONCELLOS, Marco Antonio Sandoval; GARCIA, Manuel Enriquez. &lt;strong&gt;Fundamentos de &lt;span&gt;Economia&lt;/span&gt;&lt;/strong&gt;. 6. ed. S&lt;span&gt;ã&lt;/span&gt;o Paulo: Saraiva, 2018. p. 368
+VASCONCELLOS, Marco Antonio Sandoval e GARCIA, Manuel Enriquez. &lt;strong&gt;Fundamentos de &lt;span&gt;Economia&lt;/span&gt;&lt;/strong&gt;. 6. ed. S&lt;span&gt;ã&lt;/span&gt;o Paulo: Saraiva, 2018. p. 368
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;

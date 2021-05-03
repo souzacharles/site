@@ -1,0 +1,18 @@
+language:
+  label:
+    fig: "Figura "
+    def: 'Definição '
+    tab: 'Tabela '
+    eq: 'Equação '
+    exr: 'Exercício '
+    solution: 'Resolução '
+    thm: 'Teorema '
+    lem: 'Nota '
+    cor: 'Equação '
+    prp: 'Proposição '
+    cnj: 'Síntese '
+    proof: 'Proof. '
+    remark: 'Remark. '
+    
+    
+    

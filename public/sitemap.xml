@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/courses/macroeconomia/python/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <loc>/courses/macroeconomia/produto-agregado/pib/</loc>
+    <lastmod>2021-05-03T12:48:28-03:00</lastmod>
   </url><url>
-    <loc>/courses/macroeconomia/visualization/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <loc>/courses/macroeconomia/modelo-keynesiano-simples/keynesiano/</loc>
+    <lastmod>2021-05-03T10:35:17-03:00</lastmod>
   </url><url>
-    <loc>/courses/macroeconomia/stats/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <loc>/courses/macroeconomia/monetario/monetario/</loc>
+    <lastmod>2021-05-03T10:12:40-03:00</lastmod>
   </url><url>
     <loc>/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
@@ -20,32 +20,56 @@
     <loc>/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
+    <loc>/authors/</loc>
+    <lastmod>2021-05-03T12:48:28-03:00</lastmod>
+  </url><url>
+    <loc>/author/charles-souza/</loc>
+    <lastmod>2021-05-03T12:48:28-03:00</lastmod>
+  </url><url>
     <loc>/courses/</loc>
-    <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-03T12:48:28-03:00</lastmod>
+  </url><url>
+    <loc>/courses/macroeconomia/curto-prazo/curtoprazo/</loc>
+    <lastmod>2021-05-03T10:22:10-03:00</lastmod>
+  </url><url>
+    <loc>/tag/cambio/</loc>
+    <lastmod>2021-05-03T11:24:03-03:00</lastmod>
+  </url><url>
+    <loc>/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos/</loc>
+    <lastmod>2021-05-03T11:24:03-03:00</lastmod>
+  </url><url>
+    <loc>/tag/inflacao/</loc>
+    <lastmod>2021-05-03T11:24:03-03:00</lastmod>
+  </url><url>
+    <loc>/courses/macroeconomia/longo-prazo/longoprazo/</loc>
+    <lastmod>2021-05-03T10:20:17-03:00</lastmod>
+  </url><url>
+    <loc>/tag/macroeconomia/</loc>
+    <lastmod>2021-05-03T12:48:28-03:00</lastmod>
+  </url><url>
+    <loc>/courses/macroeconomia/macroeconomia-intertemporal/intertemporal/</loc>
+    <lastmod>2021-05-03T10:27:28-03:00</lastmod>
+  </url><url>
+    <loc>/courses/macroeconomia/politica-economica/politicaeconomica/</loc>
+    <lastmod>2021-05-03T10:39:28-03:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-05-03T12:48:28-03:00</lastmod>
+  </url><url>
+    <loc>/tag/taxa-de-juros/</loc>
+    <lastmod>2021-05-03T11:24:03-03:00</lastmod>
   </url><url>
     <loc>/courses/macroeconomia/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/</loc>
-    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+    <loc>/tag/fluxo-circular-da-renda/</loc>
+    <lastmod>2021-05-03T12:48:28-03:00</lastmod>
   </url><url>
-    <loc>/author/charles-souza/</loc>
-    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+    <loc>/tag/pib/</loc>
+    <lastmod>2021-05-03T12:48:28-03:00</lastmod>
   </url><url>
-    <loc>/tag/inflacao/</loc>
-    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/courses/macroeconomia/inflacao1/</loc>
-    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/macroeconomia/</loc>
-    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/courses/macroeconomia/pib/</loc>
-    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+    <loc>/tag/pnb/</loc>
+    <lastmod>2021-05-03T12:48:28-03:00</lastmod>
   </url><url>
     <loc>/tag/academic/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
