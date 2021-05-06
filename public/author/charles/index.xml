@@ -5,7 +5,7 @@
     <link>/author/charles/</link>
       <atom:link href="/author/charles/index.xml" rel="self" type="application/rss+xml" />
     <description>Charles</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Thu, 06 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hu07acfe0edfa07a39670764eba332f45f_49366_512x512_fill_lanczos_center_2.png</url>
       <title>Charles</title>
@@ -13,19 +13,16 @@
     </image>
     
     <item>
-      <title>Inflação</title>
-      <link>/courses/macroeconomia/inflacao1/</link>
-      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>/courses/macroeconomia/inflacao1/</guid>
+      <title>Produto agregado</title>
+      <link>/courses/macroeconomia/produto/</link>
+      <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
+      <guid>/courses/macroeconomia/produto/</guid>
       <description>
-&lt;script src=&#34;/courses/macroeconomia/inflacao1/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/courses/macroeconomia/produto/index.pt_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/courses/macroeconomia/produto/index.pt_files/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/courses/macroeconomia/produto/index.pt_files/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
 
 
-&lt;p&gt;&lt;/p&gt;
-&lt;div id=&#34;introdução&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Introdução&lt;/h1&gt;
-&lt;p&gt;Textos de referência Vasconcellos e Garcia &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Vasconcellos2018&#34; role=&#34;doc-biblioref&#34;&gt;2018, p. 221, 302–314&lt;/a&gt;)&lt;/span&gt;; Lopes et al. &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Lopes2018&#34; role=&#34;doc-biblioref&#34;&gt;2018, p. 11–13, 56&lt;/a&gt;)&lt;/span&gt;; Lopes et al. &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Lopes2008&#34; role=&#34;doc-biblioref&#34;&gt;2008, p. 294–306&lt;/a&gt;)&lt;/span&gt; e Mankiw &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Mankiw2010&#34; role=&#34;doc-biblioref&#34;&gt;2010, p. 25–28, 301–303&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;O presente arquivo trata dos principais tópicos abordados na disciplina &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;Princípios de Economia – GED-72/2020&lt;/strong&gt;&lt;/span&gt;. Em especial, objetiva-se reforçar os preceitos e conceitos da &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;Ciência Macroeconômica&lt;/strong&gt;&lt;/span&gt; apresentados em sala de aula (ou em videoaulas).&lt;/p&gt;
 &lt;style type=&#34;text/css&#34;&gt;
 
 body {text-align: justify},
@@ -58,324 +55,697 @@ blockquote {
 
 
 &lt;/style&gt;
-&lt;p&gt;O objetivo deste &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;resumo&lt;/strong&gt;&lt;/span&gt; é apresentar conceitos básicos sobre inflação e evidenciar os principais índices de preços empregados no Brasil. &lt;!-- e, ademais,  demonstrar  algumas técnicas para deflacionar séries temporais. Para esse fim, utilizar-se-á o programa Excel da Microsoft e, principalmente, o \textit{software} estatístico \href{https://www.r-project.org/}{\faRProject}.\footnote{O conteúdo prático tem como objetivo consolidar os conceitos teóricos sobre inflação, não haverá questões sobre os \textit{softwares} na avaliação de macroeconomia.}--&gt;&lt;/p&gt;
-&lt;p&gt;O que é inflação? De modo resumido, a inflação é o processo de crescimento &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;contínuo&lt;/strong&gt;&lt;/span&gt; e &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;generalizado&lt;/strong&gt;&lt;/span&gt; dos preços numa economia. A taxa de inflação é um indicador do aumento percentual do nível geral de preços.&lt;/p&gt;
-
-&lt;div class=&#34;corollary&#34;&gt;
-&lt;p&gt;&lt;span id=&#34;cor:unnamed-chunk-2&#34; class=&#34;corollary&#34;&gt;&lt;strong&gt;Equação 1  (Taxa de Inflação)  &lt;/strong&gt;&lt;/span&gt;
-&lt;span class=&#34;math display&#34;&gt;\[\frac{I-I_{-1}}{I_{-1}}\]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;font size=&#34;1&#34;&gt;&lt;br /&gt;
-&lt;span class=&#34;math inline&#34;&gt;\(\textrm{I} = \textrm{Índice Geral de Preços}\)&lt;/span&gt;&lt;/p&gt;
-&lt;/font&gt;
-&lt;/div&gt;
-&lt;p&gt;A Figura &lt;a href=&#34;#fig:ipcaindice&#34;&gt;1&lt;/a&gt; mostra o número-índice, a varição mensal e a variação anual da inflação no Brasil entre 2010 e início de 2021 — Tabela n.º 1737 do Sistema IBGE de Recuperação Automática &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-sidra2021&#34; role=&#34;doc-biblioref&#34;&gt;SIDRA, 2021&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
-&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:ipcaindice&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;figure/ipcaindice-1.png&#34; alt=&#34;Número Índice, variação mensal e variação anual da inflação --- 2010--2021&#34; width=&#34;864&#34; /&gt;
+&lt;div id=&#34;fluxo-circular-da-renda&#34; class=&#34;section level1&#34; number=&#34;1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Fluxo Circular da Renda&lt;/h1&gt;
+&lt;p&gt;Textos de referência Vasconcellos e Garcia &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Vasconcellos2018&#34; role=&#34;doc-biblioref&#34;&gt;2018, p. 173&lt;/a&gt;)&lt;/span&gt;; Lopes et al. &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Lopes2018&#34; role=&#34;doc-biblioref&#34;&gt;2018, p. 6&lt;/a&gt;)&lt;/span&gt;; Lopes et al. &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Lopes2008&#34; role=&#34;doc-biblioref&#34;&gt;2008, p. 22–24&lt;/a&gt;)&lt;/span&gt; e Mankiw &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Mankiw2010&#34; role=&#34;doc-biblioref&#34;&gt;2010, p. 16–17&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;A teoria macroeconômica contorna as dificuldades inatas de mensurar o comportamento coletivo dos agentes econômicos por meio da elaboração de modelos.
+O modelo mais simples que representa as relações econômicas de uma sociedade é conhecido como Modelo do Fluxo Circular da Renda (FCR).&lt;/p&gt;
+&lt;p&gt;O FCR mostra o fluxo da atividade econômica em formato de diagrama, o qual comporta dois mercados principais, &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;Mercado de Bens e Serviços&lt;/strong&gt;&lt;/span&gt; e o &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;Mercado de Fatores de Produção&lt;/strong&gt;&lt;/span&gt;. As conexões entre os diferentes agentes econômicos e os referidos mercados são representadas por setas que direcionam o &lt;span style=&#34;     color: #406278 !important;&#34;&gt;&lt;strong&gt;fluxo real (bens e serviços)&lt;/strong&gt;&lt;/span&gt; — sentido anti-horário — e o &lt;span style=&#34;     color: #ebc600 !important;&#34;&gt;&lt;strong&gt;fluxo monetário&lt;/strong&gt;&lt;/span&gt; — sentido horário. As próximas subseções exemplificam o exposto.&lt;/p&gt;
+&lt;div id=&#34;economia-fechada-sem-formação-de-capital&#34; class=&#34;section level2&#34; number=&#34;1.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1&lt;/span&gt; Economia fechada sem formação de capital&lt;/h2&gt;
+&lt;p&gt;Considere uma economia hipotética em que há apenas dois &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;agentes econômicos&lt;/strong&gt;&lt;/span&gt;: &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;empresas&lt;/strong&gt;&lt;/span&gt; e &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;famílias&lt;/strong&gt;&lt;/span&gt;. Nessa economia simples há somente dois tipos de mercado: &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;Mercado de Bens e Serviços&lt;/strong&gt;&lt;/span&gt; e &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;Mercado de Fatores de Produção&lt;/strong&gt;&lt;/span&gt;. O principal fornecedor de recursos para a economia é o setor das famílias e o principal recurso que as famílias fornecem é, evidentemente, a sua mão de obra. O setor empresarial é o principal comprador de recursos, que usam para produzir bens e serviços. Os bens e serviços são vendidos pelas empresas às famílias no Mercado de Bens e Serviços. Essa situação é mostrada na Figura &lt;a href=&#34;#fig:fluxo&#34;&gt;1.1&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:fluxo&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;fluxo.jpg&#34; alt=&#34;Economia fechada sem formação de capital&#34; width=&#34;650px&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
-Figura 1: Número Índice, variação mensal e variação anual da inflação — 2010–2021
+Figura 1.1: Economia fechada sem formação de capital
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
-&lt;!---
-\begin{figure}[H]
-    \renewcommand{\figurename}{\MakeTextUppercase\footnotesize Figura }
-    \centering
-    \includegraphics[width=.91\textwidth]{content/post/2021-04-27-deflacionamento/ipca_subamostra.png}
-    %\raggedright\hspace{2.4cm}\footnotesize{}
-    \label{ipca_subamostra}
-    %\vspace*{-.3cm}
-    \caption{\protect\footnotesize Número Índice, variação mensal e variação anual da inflação --- 2010--2021}\label{}
-    % \caption{Número Índice, variação mensal e variação anual da inflação --- 2010--2021}
-\end{figure}
----&gt;
-&lt;p&gt;Quando se diz, por exemplo, que um índice como o Índice Nacional de Preços ao Consumidor Amplo (IPCA) — índice oficial do Brasil — teve uma variação mensal de 2% no mês de agosto, isto significa que
-a &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;média ponderada&lt;/strong&gt;&lt;/span&gt; dos preços que compõem o índice em referência sofreu um aumento de 2% em relação ao mês anterior, isto é, em relação a julho.&lt;/p&gt;
-&lt;p&gt;Se a variação do salário, em determinado período, for menor que o IPCA, haverá, em média, perda do poder de compra. Se a inflação e o salário têm a mesma variação, mantém-se o poder de compra. Todavia, um aumento salarial for acima do referido índice, o poder de compra aumentará.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;índices-de-preços&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Índices de preços&lt;/h1&gt;
-&lt;p&gt;Texto de referência Vasconcellos e Garcia &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Vasconcellos2018&#34; role=&#34;doc-biblioref&#34;&gt;2018, p. 198–203&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;A inflação é mensurada através de índices que ponderam os bens e serviços mais importantes para uma população e medem o crescimento dos preços. Posto de outro modo, os índices de preços são “números que agregam e representam os preços de determinada cesta de produtos. Sua variação mede, portanto, a variação média dos preços dos produtos dessa cesta. Podem se referir, por exemplo, a preços ao consumidor, preços ao produtor, custos de produção ou preços de exportação e importação. Os índices mais difundidos são os índices de preços ao consumidor, que medem a variação do custo de vida de segmentos da população (taxa de inflação ou de deflação)” (BCB, 2016).&lt;/p&gt;
+&lt;p&gt;A Figura é conhecida como diagrama do fluxo circular da renda e do produto.
+Observe que existem dois fluxos na economia. Há um fluxo no sentido anti-horário de recursos &lt;span style=&#34;     color: #406278 !important;&#34;&gt;&lt;strong&gt;recursos reais – bens e serviços&lt;/strong&gt;&lt;/span&gt;.
+No sentido horário, há um &lt;span style=&#34;     color: #ebc600 !important;&#34;&gt;&lt;strong&gt;fluxo monetário – moeda (dinheiro)&lt;/strong&gt;&lt;/span&gt;.
+Os pagamentos recebidos pelas famílias pela venda dos seus recursos (fatores de produção) representam seus rendimentos.
+As famílias usam suas rendas para comprar bens e serviços.
+Os pagamentos feitos pelas empresas às famílias fazem parte dos custos dos negócios.
+O dinheiro que as empresas recebem pelos bens e serviços que vendem às famílias constitui o seu rendimento bruto.&lt;/p&gt;
+&lt;p&gt;Se as famílias gastarem toda a sua renda nesta economia hipotética, a economia estará em equilíbrio. A renda que é gerada no curso da produção de bens e serviços é suficiente para comprar todos os bens e serviços que são produzidos, garantindo que as empresas mantenham o nível atual de produção. Se essa produção estiver em &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;pleno emprego&lt;/strong&gt;&lt;/span&gt;, a economia permanecerá em equilíbrio, indefinidamente, no pleno emprego. Não há razão para as empresas mudarem o seu nível de produção, visto que conseguem vender todos os bens e serviços que produzem.&lt;/p&gt;
 
 &lt;div class=&#34;lemma&#34;&gt;
-&lt;span id=&#34;lem:unnamed-chunk-3&#34; class=&#34;lemma&#34;&gt;&lt;strong&gt;Nota 1  (Número-índice)  &lt;/strong&gt;&lt;/span&gt;
+&lt;span id=&#34;lem:unnamed-chunk-1&#34; class=&#34;lemma&#34;&gt;&lt;strong&gt;Nota 1.1  (Pleno Emprego)  &lt;/strong&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Os números-índices têm por objetivo mensurar a evolução relativa de uma ou mais séries de dados ao longo do tempo. Ou seja, é uma medida que sintetiza, em uma expressão quantitativa, a variação média, entre duas situações, de todos os elementos de um conjunto.&lt;/p&gt;
+&lt;p&gt;O pleno emprego é a situação no mercado de trabalho onde todos os aptos e dispostos a trabalhar conseguem ocupação remunerada. Em outras palavras, “quando o produto agregado está abaixo do produto de pleno emprego, dizemos que existe desemprego, em geral representado pelo desemprego de mão de obra. Quando está acima, dizemos que a economia opera em uma situação de superemprego” &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Lopes2018&#34; role=&#34;doc-biblioref&#34;&gt;LOPES et al., 2018, p. 7&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;O &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;Índice Laspeyres&lt;/strong&gt;&lt;/span&gt;, por exemplo, faz parte da metodologia para o cálculo do IPCA.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;economia-fechada-com-formação-de-capital-poupança&#34; class=&#34;section level2&#34; number=&#34;1.2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.2&lt;/span&gt; Economia fechada com formação de capital — poupança&lt;/h2&gt;
+&lt;p&gt;Compreendido esse processo, convém acrescentar algumas complicações em nosso modelo. É razoável supor que as famílias não gastam toda sua renda. Elas podem, por vários motivos, poupar parte de sua renda. Enquanto os agregados familiares poupam, constitui uma fuga de recursos do fluxo circular de gastos. Esse “vazamento” é representado na Figura &lt;a href=&#34;#fig:fluxo1&#34;&gt;1.2&lt;/a&gt; por uma seta que leva ao setor doméstico.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:fluxo1&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;fluxo_1.jpg&#34; alt=&#34;Economia fechada com formação de capital - poupança&#34; width=&#34;650px&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figura 1.2: Economia fechada com formação de capital - poupança
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Será que essa nova variável é um problema para nossa economia hipotética? Se os agregados familiares decidirem poupar parte dos seus rendimentos, os gastos deixarão de ser suficientes para comprar todos os bens e serviços produzidos pelas empresas. As famílias ainda recebem renda suficiente para comprar toda a produção da economia, mas optam por poupar parte de sua renda. Ou seja, parte da produção não será vendida. Como as empresas reagirão a essa situação? Há três possibilidades: elas podem estimular a demanda reduzindo os preços, reduzir sua produção ou, o que é provável, a combinação das duas. Se a produção é reduzida, menos trabalhadores são empregados, surge o &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;desemprego involuntário&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;economia-fechada-com-formação-de-capital---poupança-e-investimento&#34; class=&#34;section level2&#34; number=&#34;1.3&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.3&lt;/span&gt; Economia fechada com formação de capital - poupança e investimento&lt;/h2&gt;
+&lt;p&gt;Outro ponto relevante do nosso modelo é: onde as famílias alocam sua poupança? É provável que grande parte da renda não consumida será alocada em bancos comerciais. Estas instituições usarão essa poupança para fazer empréstimos a outras famílias e empresas. Se o empréstimo é para outras famílias que desejam gastar mais do que sua renda, então não haverá alteração no fluxo circular da renda. Ou seja, a redução do consumo de uma família é compensada pelo aumento de consumo de outras famílias.&lt;/p&gt;
+&lt;p&gt;Existe também a possibilidade da empresa pedir dinheiro emprestado para comprar &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;bens de capital&lt;/strong&gt;&lt;/span&gt;, isto é, realizar um &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;investimento produtivo&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;lemma&#34;&gt;
+&lt;span id=&#34;lem:unnamed-chunk-2&#34; class=&#34;lemma&#34;&gt;&lt;strong&gt;Nota 1.2  (Investimento Produtivo – ou econômico &lt;em&gt;versus&lt;/em&gt; Investimento Financeiro)  &lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;O &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;investimento produtivo&lt;/strong&gt;&lt;/span&gt; é um investimento direcionado para a produção de novos bens e serviços, em geral, é o investimento em &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;máquinas, equipamentos e estruturas&lt;/span&gt; que serão utilizados no processo produtivo do período seguinte.&lt;br /&gt;
+Os &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;investimentos financeiros&lt;/strong&gt;&lt;/span&gt; são aqueles alocados em carteiras ou portefólios financeiros, e.g., derivativos, ações, tesouro direto, opções, fundos imobiliários.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;O investimento &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;(conceituado em economia como sinônimo de investimento produtivo)&lt;/strong&gt;&lt;/span&gt; pode ser considerado como uma injeção de recursos no fluxo circular. Essa injeção é representada na Figura &lt;a href=&#34;#fig:fluxo2&#34;&gt;1.3&lt;/a&gt; pela seta direcionada às empresas.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:fluxo2&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;fluxo_2.jpg&#34; alt=&#34;Economia fechada com formação de capital - poupança e investimento&#34; width=&#34;650px&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figura 1.3: Economia fechada com formação de capital - poupança e investimento
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Observe que se o investimento das empresas (e/ou o empréstimo entre famílias) for igual aos vazamentos ocorridos pela poupança, a economia estará em equilíbrio. Todos os bens e serviços na economia são comprados, seja pelas famílias ou pelas próprias empresas.&lt;/p&gt;
+&lt;!-- nota --&gt;
+
+&lt;div class=&#34;lemma&#34;&gt;
+&lt;span id=&#34;lem:unnamed-chunk-3&#34; class=&#34;lemma&#34;&gt;&lt;strong&gt;Nota 1.3  (Investimento de ‘segunda mão’)  &lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;O investimento em ativos de segunda mão não é contabilizado como investimento agregado, sendo apenas uma transferência de ativos que se compensa: alguém “desinvestiu”. Esses bens já foram computados no passado.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div id=&#34;economia-fechada-com-governo&#34; class=&#34;section level2&#34; number=&#34;1.4&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.4&lt;/span&gt; Economia fechada com governo&lt;/h2&gt;
+&lt;p&gt;Outro agente econômico relevante em uma economia é o governo. Este faz seus próprios gastos e também cobra &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;tributos&lt;/strong&gt;&lt;/span&gt; das pessoas.&lt;/p&gt;
+&lt;!-- nota --&gt;
+
+&lt;div class=&#34;lemma&#34;&gt;
+&lt;span id=&#34;lem:unnamed-chunk-4&#34; class=&#34;lemma&#34;&gt;&lt;strong&gt;Nota 1.4  (Tributos)  &lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;Imposto Direto&lt;/strong&gt;&lt;/span&gt; – afeta diretamente a riqueza dos contribuintes, incidindo sobre seus capitais ou suas rendas, e depende da importância das riquezas possuídas ou das rendas ou salários recebidos, e.g., Imposto de Renda, IPVA, IPTU, etc.&lt;br /&gt;
+&lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;Imposto Indireto&lt;/strong&gt;&lt;/span&gt; – decorrente da produção e comercialização (geralmente, incide sobre vendas, produtos industrializados, importação etc.), e.g., IPI, ICMS, ISS, etc.&lt;br /&gt;
+Uma vez que, em última análise, os impostos têm de ser pagos pelas pessoas, podemos apenas considerar o efeito dos impostos sobre os &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;agregados familiares&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As famílias agora terão três formas de despender suas rendas: no consumo, na poupança e no pagamento de tributos. Os dois últimos constituem fugas do fluxo circular de gastos da economia. O governo também realiza gastos (em bens e serviços) que são acrescidos no fluxo circular de gastos. A participação do governo em nossa economia hipotética está evidenciada na Figura &lt;a href=&#34;#fig:fluxo3&#34;&gt;1.4&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:fluxo3&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;fluxo_3.jpg&#34; alt=&#34;Economia fechada com governo&#34; width=&#34;650px&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figura 1.4: Economia fechada com governo
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;economia-aberta-e-com-governo&#34; class=&#34;section level2&#34; number=&#34;1.5&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.5&lt;/span&gt; Economia aberta e com governo&lt;/h2&gt;
+&lt;p&gt;Para tornar o nosso exemplo um pouco menos abstrato, inclui-se agora o setor externo. As famílias podem optar por comprar mercadorias estrangeiras, o que constituirá outro tipo de fuga do fluxo circular. Indivíduos em outros países podem optar por comprar bens e serviços de nossa economia, que são injeções em nosso fluxo circular de gastos. Essas relações estão representadas na Figura &lt;a href=&#34;#fig:fluxo4&#34;&gt;1.5&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:fluxo4&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;fluxo_4.jpg&#34; alt=&#34;Economia aberta e com governo&#34; width=&#34;650px&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figura 1.5: Economia aberta e com governo
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Resumidamente, há agora três categorias de vazamentos do fluxo de gastos: poupança, tributos e bens e serviços importados. Existem três categorias de injeções: investimento, gastos do governo e bens e serviços exportados. O equilíbrio ainda requer que toda a renda seja gasta, seja como consumo das famílias, investimento das empresas, gastos do governo ou exportações para países estrangeiros. Se toda a renda for gasta, então toda a produção das empresas será comprada. O gasto total será igual à produção total e a economia estará em equilíbrio. Contudo, se a produção total exceder o gasto total, então a economia estará em desequilíbrio, já que parte da produção não é vendida. Nesta situação, as empresas reagirão, pelo menos parcialmente, reduzindo seu nível de produção, levando um menor nível de emprego e um menor &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;PIB real&lt;/strong&gt;&lt;/span&gt;. No entanto, se o gasto total exceder a produção total, então as empresas tenderão a aumentar a produção, desde que a economia não esteja em pleno emprego, resultando em uma maior taxa de emprego e um PIB real mais alto.&lt;/p&gt;
+&lt;!-- Síntese--&gt;
+
+&lt;div class=&#34;conjecture&#34;&gt;
+&lt;span id=&#34;cnj:unnamed-chunk-5&#34; class=&#34;conjecture&#34;&gt;&lt;strong&gt;Síntese 1.1  (FCR)  &lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;O fluxo real e o monetário interligam os múltiplos Agentes econômicos: as famílias, as empresas, o governo e o ‘resto do mundo’.
+As famílias fornecem os fatores de produção (no exemplo a mão de obra) às empresas e as empresas produzem e fornecem às famílias os bens e serviços de que necessitam, fluxo real.&lt;br /&gt;
+As empresas pagam às famílias pelo trabalho realizado e, no que lhe concerne, as famílias pagam às empresas os bens e serviços adquiridos, fluxo monetário.&lt;br /&gt;
+Do lado do fluxo real (Produto) estão o emprego dos recursos e o suprimento de bens e serviços necessários. Do lado monetário se dá a remuneração dos fatores de produção e o pagamento dos bens e serviços adquiridos (Renda).&lt;br /&gt;
+O dinheiro (moeda) é neutro, no sentido de que é considerada apenas como unidade de medida e meio de trocas.&lt;br /&gt;
+A situação de pleno emprego: a demanda de trabalho é igual ou inferior à oferta. Ou seja, todos que desejarem vender sua força de trabalho pelo salário corrente terão condições de obter um emprego.&lt;br /&gt;
+No modelo básico, a economia estará em equilíbrio quando os vazamentos forem iguais ao nível das injeções.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;o-produto-agregado-sob-as-três-óticas&#34; class=&#34;section level1&#34; number=&#34;2&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;2&lt;/span&gt; O Produto agregado sob as três óticas&lt;/h1&gt;
+&lt;p&gt;Textos de referência Vasconcellos e Garcia &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Vasconcellos2018&#34; role=&#34;doc-biblioref&#34;&gt;2018, p. 173–179&lt;/a&gt;)&lt;/span&gt;; Lopes et al. &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Lopes2018&#34; role=&#34;doc-biblioref&#34;&gt;2018, p. 2–6&lt;/a&gt;)&lt;/span&gt; e Lopes et al. &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Lopes2008&#34; role=&#34;doc-biblioref&#34;&gt;2008, p. 20–44&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;O PIB é medido a preços de mercado (&lt;font size=&#34;2&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(PIB_{pm}\)&lt;/span&gt;&lt;/font&gt;) e pode ser calculado sob três óticas: &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;produto (oferta), renda e despesa (demanda)&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;div id=&#34;ótica-do-produto&#34; class=&#34;section level2&#34; number=&#34;2.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.1&lt;/span&gt; Ótica do produto&lt;/h2&gt;
+&lt;p&gt;Pela ótica da produção, há duas formas de mensurar o PIB. A primeira corresponde à soma dos valores agregados dos setores primário, secundário e terciário da economia&lt;!---, mais os impostos indiretos, mais a depreciação do capital, menos os subsídios governamentais---&gt;.&lt;/p&gt;
 
 &lt;div class=&#34;corollary&#34;&gt;
-&lt;p&gt;&lt;span id=&#34;cor:unnamed-chunk-4&#34; class=&#34;corollary&#34;&gt;&lt;strong&gt;Equação 2  (Índice Laspeyres)  &lt;/strong&gt;&lt;/span&gt;
-&lt;span class=&#34;math display&#34;&gt;\[\textrm{Índ. Lasp.} = \frac{\sum_{i=1}^{n}p_{t}\times q_{0}}{\sum_{i=1}^{n}p_{0}\times q_{0}}\]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;font size=&#34;1&#34;&gt;&lt;br /&gt;
-&lt;span class=&#34;math inline&#34;&gt;\(p_{t} = \textrm{ preço no período t;}\)&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(p_{0} = \textrm{ preço no período base;}\)&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(q _{0} = \textrm{ quantidade no período base.}\)&lt;/span&gt;&lt;/p&gt;
-&lt;/font&gt;
+&lt;p&gt;&lt;span id=&#34;cor:unnamed-chunk-6&#34; class=&#34;corollary&#34;&gt;&lt;strong&gt;Equação 2.1  (Grandes setores da economia)  &lt;/strong&gt;&lt;/span&gt;
+&lt;span class=&#34;math display&#34;&gt;\[
+\begin{aligned}
+  \sum p_i\times q_i =  p_{\textrm{soja}}\times q_{\textrm{soja}} +...+  p_{\textrm{automóvel}}\times q_{\textrm{automóvel}} + ... +   p_{\textrm{bilhete viagem}}\times q_{\textrm{bilhete viagem}}
+\end{aligned}
+\]&lt;/span&gt;&lt;/p&gt;
+&lt;font size=&#34;1&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(p = \textrm{preço}\)&lt;/span&gt; e &lt;span class=&#34;math inline&#34;&gt;\(q = \textrm{quantidade}.\)&lt;/span&gt; &lt;/font&gt;
 &lt;/div&gt;
-&lt;p&gt;O &lt;a href=&#34;https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html?=&amp;amp;t=o-que-e&#34;&gt;Índice Nacional de Preços ao Consumidor Amplo (IPCA)&lt;/a&gt;, calculado pelo IBGE, é um dos índices mais importantes da economia brasileira, pois, é utilizado pelo &lt;a href=&#34;https://www.gov.br/fazenda/pt-br/assuntos/cmn&#34;&gt;Conselho Monetário Nacional (CMN)&lt;/a&gt; como referência para o sistema de metas de inflação. Ademais, alguns títulos do &lt;a href=&#34;https://www.tesourodireto.com.br/titulos/tipos-de-tesouro.htm&#34;&gt;Tesouro Nacional&lt;/a&gt; são indexados a esse índice. Outro índice importante elaborado pela mesma instituição é o &lt;a href=&#34;https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9258-indice-nacional-de-precos-ao-consumidor.html?=&amp;amp;t=o-que-e&#34;&gt;Índice Nacional de Preços ao Consumidor (INPC)&lt;/a&gt; que mensura um conjunto de produtos e serviços consumidos pelas famílias com rendimentos de 1 a 5 salários mínimos, em que a pessoa de referência na família seja assalariada, e que resida na área urbana da região de abrangência da coleta. O INPC é comumente utilizado em dissídios salariais.&lt;/p&gt;
-&lt;p&gt;A base de ponderação dos índices de preço ao consumidor calculados pelo IBGE é obtida através de pesquisas de orçamento familiar que levantam o peso de cada produto no consumo das famílias.&lt;/p&gt;
+&lt;p&gt;A Figura &lt;a href=&#34;#fig:pibanual&#34;&gt;2.1&lt;/a&gt; evidencia o PIB dos grandes setores da economia brasileira – agropecuária, indústria e serviços – em valores reais entre 1996 e 2020 – Tabela n.º 1846 do Sistema IBGE de Recuperação Automática &lt;span class=&#34;citation&#34;&gt;(SIDRA, &lt;a href=&#34;#ref-sidra2021&#34; role=&#34;doc-biblioref&#34;&gt;2021&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
-&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-7&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;figure/unnamed-chunk-7-1.png&#34; alt=&#34;Peso dos grupos no IPCA&#34; width=&#34;864&#34; /&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:pibanual&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/courses/macroeconomia/produto/index.pt_files/figure-html/pibanual-1.png&#34; alt=&#34;Produto Interno Bruto dos grandes setores da economia&#34; width=&#34;864&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
-Figura 2: Peso dos grupos no IPCA
+Figura 2.1: Produto Interno Bruto dos grandes setores da economia
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
-&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-8&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;figure/unnamed-chunk-8-1.png&#34; alt=&#34;Contribuição dos Grupos do IPCA para a Inflação Mensal&#34; width=&#34;864&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figura 3: Contribuição dos Grupos do IPCA para a Inflação Mensal
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;A Fundação Getúlio Vargas (FGV) consolidou-se como um importante centro de elaboração de índices econômicos. &lt;a href=&#34;https://portalibre.fgv.br/indices-de-precos&#34;&gt;O Índice Geral de Preços do Mercado (IGP-M)&lt;/a&gt;, por exemplo, foi criado em 1947 e é utilizado até hoje para reajustes nos contratos de aluguéis e reajustes de aumento no valor da energia elétrica. &lt;a href=&#34;https://portalibre.fgv.br/indices-de-precos&#34;&gt;O Índice Geral de Preços – Disponibilidade Interna (IGP-DI)&lt;/a&gt; é mais antigo ainda, sua criação data de 1944 e é empregado em contratos para correção de determinados preços administrados. Além desses, a instituição calcula o &lt;a href=&#34;https://portalibre.fgv.br/estudos-e-pesquisas/indices-de-precos/ipa&#34;&gt;Índice de Preços ao Produtor Amplo (IPA)&lt;/a&gt;, o &lt;a href=&#34;https://portalibre.fgv.br/estudos-e-pesquisas/indices-de-precos/ipc&#34;&gt;Índice de Preços ao Consumidor (IPC)&lt;/a&gt;, o &lt;a href=&#34;https://portalibre.fgv.br/estudos-e-pesquisas/indices-de-precos/incc&#34;&gt;Índice Nacional de Custo da Construção (INCC)&lt;/a&gt;, entre outros.&lt;/p&gt;
+&lt;p&gt;Outro modo de mensurar o PIB sob essa ótica é através da soma do valor adicionado na produção.
+Ou seja, considera-se o valor efetivamente &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;adicionado&lt;/strong&gt;&lt;/span&gt; em cada etapa do processo produtivo.&lt;/p&gt;
 
 &lt;div class=&#34;corollary&#34;&gt;
-&lt;p&gt;&lt;span id=&#34;cor:unnamed-chunk-9&#34; class=&#34;corollary&#34;&gt;&lt;strong&gt;Equação 3  (IGP-10, IGP-M e IGP-DI)  &lt;/strong&gt;&lt;/span&gt;
-&lt;span class=&#34;math display&#34;&gt;\[IGP_{i,t}=0,6\times IPA_{i,t}+0,3\times IPC_{i,t}+0,1 \times INCC_{i,t}\]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;font size=&#34;2&#34;&gt;&lt;br /&gt;
-&lt;span class=&#34;math inline&#34;&gt;\(\textrm{Onde } i \textrm{ pode ser 10, M ou DI.}\)&lt;/span&gt;&lt;/p&gt;
-&lt;/font&gt;
+&lt;p&gt;&lt;span id=&#34;cor:unnamed-chunk-10&#34; class=&#34;corollary&#34;&gt;&lt;strong&gt;Equação 2.2  (Valor adicionado)  &lt;/strong&gt;&lt;/span&gt;&lt;span class=&#34;math display&#34;&gt;\[PIB_{pm} = \sum \textrm{Valor Adicionado} = \textrm{Valor Bruto da Produção (VBP)}-\textrm{Consumo Intermediário}\]&lt;/span&gt;&lt;/p&gt;
+&lt;font size=&#34;1&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(VBP = \textrm{Produção} + \textrm{Imposto sobre Produto}\)&lt;/span&gt; &lt;/font&gt;
 &lt;/div&gt;
-&lt;p&gt;A Figura &lt;a href=&#34;#fig:indicesgerais&#34;&gt;4&lt;/a&gt; demonstra a variação percentual dos principais índices da Fundação Getúlio Vargas entre 2010 e início de 2021.&lt;/p&gt;
-&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:indicesgerais&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;figure/indicesgerais-1.png&#34; alt=&#34;Variação percentual dos principais índices da FGV --- 2010--2021&#34; width=&#34;864&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figura 4: Variação percentual dos principais índices da FGV — 2010–2021
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;A Figura &lt;a href=&#34;#fig:ipcaigpm&#34;&gt;5&lt;/a&gt; mostra a taxa de varição anual do IGP-M e do IPCA entre 2010 e início de 2021.&lt;/p&gt;
-&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:ipcaigpm&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;figure/ipcaigpm-1.png&#34; alt=&#34;IPCA $vs$ IGP-M&#34; width=&#34;864&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figura 5: IPCA &lt;span class=&#34;math inline&#34;&gt;\(vs\)&lt;/span&gt; IGP-M
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;A Tabela &lt;a href=&#34;#tab:tabelaindice&#34;&gt;1&lt;/a&gt; traz um resumo com os principais índices empregados no país.&lt;/p&gt;
-&lt;table&gt;
+&lt;p&gt;O valor da produção de uma empresa menos o valor dos bens intermediários que a empresa adquiriu, veja o exemplo.&lt;/p&gt;
+&lt;p&gt;Para fins didáticos, considera-se uma economia onde há apenas uma cadeia produtiva, destinada à produção final de pão.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;No ano &lt;span class=&#34;math inline&#34;&gt;\(t\)&lt;/span&gt; a empresa do setor 1 produziu sementes no valor de $100 e vendeu-as à empresa do setor 2.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;No mesmo ano, a empresa do setor 2 produziu trigo no valor de $300.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Posteriormente, a empresa do setor 3 comprou o trigo da empresa do setor 2 por 300 e vendeu farinha de trigo à empresa do setor 4 por $750.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A empresa do setor 4 vendeu aos consumidores o total de pães produzidos no ano em referência por $1.000.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;O PIB dessa economia corresponde à soma dos valores adicionados que é exatamente o valor da produção do único bem final.&lt;/p&gt;
+&lt;table class=&#34;table table-striped table-hover table-condensed table-responsive&#34; style=&#34;width: auto !important; margin-left: auto; margin-right: auto;&#34;&gt;
 &lt;caption&gt;
-&lt;span id=&#34;tab:tabelaindice&#34;&gt;Tabela 1: &lt;/span&gt;Exemplos de Índices de Preços Produzidos no Brasil
+&lt;span id=&#34;tab:unnamed-chunk-11&#34;&gt;Tabela 2.1: &lt;/span&gt;Valores adicionados no processo de fabricação de pães
 &lt;/caption&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th style=&#34;text-align:left;&#34;&gt;
-Instituto
+&lt;th style=&#34;text-align:left;color: gray !important;&#34;&gt;
+Setor
 &lt;/th&gt;
-&lt;th style=&#34;text-align:left;&#34;&gt;
-Índice de Preços
+&lt;th style=&#34;text-align:left;color: gray !important;&#34;&gt;
+Receira de venda
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;color: gray !important;&#34;&gt;
+Compra intermediária
+&lt;/th&gt;
+&lt;th style=&#34;text-align:right;color: gray !important;&#34;&gt;
+Valor adicionado
 &lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-IBGE
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
+1&lt;span class=&#34;math inline&#34;&gt;\(.\)&lt;/span&gt; Semente
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-IPCA (Índice Nacional de Preços ao Consumidor Amplo)
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
+100
 &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-IBGE
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
+0
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-INPC (Índice Nacional de Preços ao Consumidor)
+&lt;td style=&#34;text-align:right;color: #5d8aa8 !important;&#34;&gt;
+100
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-IBGE
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
+2&lt;span class=&#34;math inline&#34;&gt;\(.\)&lt;/span&gt; Trigo
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-IPP (Índice de Preços ao Produtor)
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
+300
 &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-IBGE
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
+-100
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-SINAPI (Sistema Nacional de Pesquisa de Custos e Índices da Construção Civil)
+&lt;td style=&#34;text-align:right;color: #5d8aa8 !important;&#34;&gt;
+200
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-Ibre-FGV
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
+3&lt;span class=&#34;math inline&#34;&gt;\(.\)&lt;/span&gt; Farinha
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-IGP-M, IGP-DI e IGP-10
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
+750
 &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-Ibre-FGV
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
+-300
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-Índice de Preços Pagos pelos Produtores Rurais (IPP)
+&lt;td style=&#34;text-align:right;color: #5d8aa8 !important;&#34;&gt;
+450
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-Ibre-FGV
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
+4&lt;span class=&#34;math inline&#34;&gt;\(.\)&lt;/span&gt; Pão
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-IPC-3i (Índice de Preços ao Consumidor da Terceira Idade)
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
+1000
 &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-FIPE
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
+-750
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-IPC-Fipe
+&lt;td style=&#34;text-align:right;color: #5d8aa8 !important;&#34;&gt;
+250
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-FIPE
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
+Total
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-Fipe-Zap
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-Dieese
+&lt;td style=&#34;text-align:left;color: #5d8aa8 !important;&#34;&gt;
 &lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-Cesta Básica Nacional
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-Sinduscon
-&lt;/td&gt;
-&lt;td style=&#34;text-align:left;&#34;&gt;
-Custo Unitário Básico (CUB) da construção civil do estado de São Paulo
+&lt;td style=&#34;text-align:right;color: #5d8aa8 !important;&#34;&gt;
+1000
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;O valor final do pão corresponde à soma dos valores adicionados em cada etapa produtiva.&lt;/p&gt;
+&lt;p&gt;Evidentemente, o PIB de uma economia é formado por uma rede complexa de atividades econômicas. &lt;a href=&#34;https://cnae.ibge.gov.br/apresentacao-concla.html&#34;&gt;Cf. Classificação Nacional de Atividades Econômicas (CNAE).&lt;/a&gt; No Brasil, o IBGE apresenta trimestralmente os valores adicionados da economia, valores correntes e os índices de volume, no relatório do &lt;a href=&#34;https://www.ibge.gov.br/estatisticas/economicas/industria/9300-contas-nacionais-trimestrais.html?=&amp;amp;t=o-que-e&#34;&gt;Sistema de Contas Nacionais Trimestrais – SCNT&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;deflacionamento&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Deflacionamento&lt;/h1&gt;
-&lt;p&gt;Texto de referência Vasconcellos e Garcia &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Vasconcellos2018&#34; role=&#34;doc-biblioref&#34;&gt;2018, p. 188–193&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;Estudos que envolvem comparações intertemporais de preços requer que os mesmos sejam corrigidos do efeito da &lt;a href=&#34;https://www.ibge.gov.br/explica/inflacao.php&#34;&gt;inflação&lt;/a&gt;. O método é conhecido como transformação dos valores nominais em reais. Esse ajuste permite avaliar se a valorização nominal verificada no preço de produto corresponde a uma valorização real, vis-à-vis a inflação no período considerado.
-&lt;!--\footnote{Cf. a  \href{https://www3.bcb.gov.br/CALCIDADAO/publico/exibirFormCorrecaoValores.do?method=exibirFormCorrecaoValores&amp;aba=1}{Calculadora do Cidadão do Banco Central}, para conversões pontuais.}--&gt;&lt;/p&gt;
+&lt;div id=&#34;ótica-da-renda&#34; class=&#34;section level2&#34; number=&#34;2.2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.2&lt;/span&gt; Ótica da renda&lt;/h2&gt;
+&lt;p&gt;Pela ótica da renda, o PIB é calculado a partir das remunerações pagas dentro do território econômico de um país sob a forma de salários, juros, aluguéis e lucros distribuídos&lt;!---; somam-se a isso os lucros não distribuídos, os impostos indiretos e a depreciação do capital e, finalmente, subtraem-se os subsídios---&gt;.&lt;/p&gt;
+&lt;p&gt;Em outras palavras, o PIB pela ótica da renda é medido pela soma dos rendimentos obtidos no processo de produção.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;     color: #406278 !important;&#34;&gt;&lt;strong&gt;Fatores de produção e as respectivas remunerações&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mão de obra &lt;span class=&#34;math inline&#34;&gt;\(\to\)&lt;/span&gt; Salários (&lt;span class=&#34;math inline&#34;&gt;\(w\)&lt;/span&gt;)&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Capital (financeiro) &lt;span class=&#34;math inline&#34;&gt;\(\to\)&lt;/span&gt; Juros (&lt;span class=&#34;math inline&#34;&gt;\(j\)&lt;/span&gt;)&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Terra (recursos naturais)/Capital físico &lt;span class=&#34;math inline&#34;&gt;\(\to\)&lt;/span&gt; Aluguéis (&lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt;)&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Capacidade empresarial (organização da produção) &lt;span class=&#34;math inline&#34;&gt;\(\to\)&lt;/span&gt; Lucros (&lt;span class=&#34;math inline&#34;&gt;\(l\)&lt;/span&gt;)&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Capacidade tecnológica (invenção, inovação e operação) &lt;span class=&#34;math inline&#34;&gt;\(\to\)&lt;/span&gt; &lt;span class=&#34;math inline&#34;&gt;\(royalties\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;div class=&#34;corollary&#34;&gt;
-&lt;p&gt;&lt;span id=&#34;cor:unnamed-chunk-13&#34; class=&#34;corollary&#34;&gt;&lt;strong&gt;Equação 4  (Fórmula básica para o deflacionamento)  &lt;/strong&gt;&lt;/span&gt;
-&lt;span class=&#34;math display&#34;&gt;\[
-\begin{aligned}
- P_{i:j} = \left(\frac{I_{j}}{I_{i}}\right)\times P_{i}\label{defla}
- \end{aligned}
-\]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;font size=&#34;1&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(P_{i:j} = \textrm{preço real do produto do período } i \textrm{ em valor do período } j;\)&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(P_i = \textrm{preço nominal do produto no período } i;\)&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(I_i = \textrm{Índice de preço no período } i, \textrm{ e}\)&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(I_j = \textrm{Índice de preço no período } j.\)&lt;/span&gt;&lt;/p&gt;
-&lt;/font&gt;
+&lt;p&gt;&lt;span id=&#34;cor:unnamed-chunk-12&#34; class=&#34;corollary&#34;&gt;&lt;strong&gt;Equação 2.3  (Soma dos rendimentos)  &lt;/strong&gt;&lt;/span&gt;
+&lt;span class=&#34;math display&#34;&gt;\[Y= w + j + l + a + royalties\]&lt;/span&gt;&lt;/p&gt;
+&lt;font size=&#34;1&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(\textrm{O } Y \textrm{ representa a renda bruta.}\)&lt;/span&gt; &lt;/font&gt;
 &lt;/div&gt;
-&lt;p&gt;A função mostra que preço real do produto é igual à relação entre os índices de preços nos períodos &lt;em&gt;j:i&lt;/em&gt; multiplicado pelo preço nominal.&lt;/p&gt;
-&lt;p&gt;A Figura &lt;a href=&#34;#fig:deflacionamento&#34;&gt;6&lt;/a&gt; evidencia o PIB do Brasil em valores nominais e reais.&lt;/p&gt;
+&lt;p&gt;A Figura &lt;a href=&#34;#fig:renda&#34;&gt;2.2&lt;/a&gt; demonstra como o IBGE explicita o PIB sob a ótica da renda.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:deflacionamento&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;figure/deflacionamento-1.png&#34; alt=&#34;Produto Interno Bruto Nominal e Real&#34; width=&#34;864&#34; /&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:renda&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/courses/macroeconomia/produto/index.pt_files/figure-html/renda-1.png&#34; alt=&#34;Produto Interno Bruto sob a ótica da renda&#34; width=&#34;864&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
-Figura 6: Produto Interno Bruto Nominal e Real
+Figura 2.2: Produto Interno Bruto sob a ótica da renda
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;
-&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;tipos-de-inflação&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Tipos de Inflação&lt;/h1&gt;
-&lt;div id=&#34;inflação-de-custos&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Inflação de custos&lt;/h2&gt;
-&lt;p&gt;A inflação de custos é resultante dos choques na oferta agregada. É o processo inflacionário gerado (ou acelerado) pela elevação dos custos de produção, especialmente das taxas de juros, de câmbio, de salários ou dos preços das importações.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;inflação-de-demanda&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Inflação de demanda&lt;/h2&gt;
-&lt;p&gt;A inflação de demanda é resultante dos choques na demanda agregada. Quando os meios de pagamento crescem além da capacidade de expansão da economia, ou antes, que a produção esteja em plena capacidade, o que impede que a maior demanda decorrente da expansão dos rendimentos seja atendida. Com isso, aumentam os preços e, por extensão, os salários e os rendimentos em geral, dando origem a uma espiral inflacionária.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;inflação-inercial&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Inflação inercial&lt;/h2&gt;
-&lt;p&gt;Quando o aumento de preços do período &lt;span class=&#34;math inline&#34;&gt;\(t\)&lt;/span&gt; é influenciado pelo aumento do nível geral de preços do período &lt;span class=&#34;math inline&#34;&gt;\(t_{-1}\)&lt;/span&gt;, damos o nome de inflação inercial.
-Em outras palavras, os preços sobem hoje porque subiram ontem.
-Para manter o poder de compra dos trabalhadores, os aumentos de preços são compensados por aumentos salariais e estes no que lhe concerne elevam a demanda por bens e serviços, que pressiona os preços, resultando em novos aumentos.
-Em momentos de elevada e persistente inflação, como os anos anteriores ao plano real, os reajustes de preços e salários ocorreram em intervalos de tempo cada vez menores.
-A este fenômeno, de reajuste em função da inflação do período anterior, dá-se o nome de indexação.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;estagflação&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Estagflação&lt;/h2&gt;
-&lt;p&gt;Situação na economia de um país na qual a estagnação ou o declínio do nível de produção e emprego se combinam com uma inflação acelerada. O fenômeno contraria a teoria clássica segundo a qual a inflação tenderia a declinar com o aumento do desemprego.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;deflação&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Deflação&lt;/h2&gt;
-&lt;p&gt;Quando a taxa de inflação é menor que zero damos o nome de &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;deflação&lt;/strong&gt;&lt;/span&gt;, isto é, uma taxa de inflação negativa.
-É caracterizada pela baixa oferta de moeda em relação à oferta de bens e serviços ou pela queda na demanda agregada (associada, por exemplo, a um maior índice de poupança).&lt;/p&gt;
-&lt;p&gt;A deflação pode ser tão prejudicial para economia quanto a inflação, deflações contínuas podem reduzir o nível do produto.&lt;/p&gt;
-&lt;p&gt;Considere a inflação (&lt;span class=&#34;math inline&#34;&gt;\(\pi\)&lt;/span&gt;) e a taxa de juros nominal (&lt;span class=&#34;math inline&#34;&gt;\(i\)&lt;/span&gt;). A taxa de juros real (&lt;span class=&#34;math inline&#34;&gt;\(r\)&lt;/span&gt;) é dada por:&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[r =i -\pi.\]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Sabendo que a taxa de juros real é a taxa de juros nominal menos a taxa de inflação, quando esta for negativa verificar-se-á uma elevação da taxa de juros real, prejudicando o consumo e o investimento.&lt;/p&gt;
-&lt;p&gt;Mas… por quê?&lt;/p&gt;
-&lt;p&gt;Como visto, umas das formas de representar o produto agregado é:&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[ Y = C + I  + G + (X-M).\]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Em tese, a taxa de juros tem influência na decisão de consumo das famílias, ou seja, as famílias podem optar por poupar parte de suas rendas para consumo futuro.
-Um dos motivos que leva uma família a tomar essa decisão é como ela será remunerada por isso. Ou seja, a remuneração da poupança está associada a formação da taxa de juros nos mercados financeiros, quando a taxa de juros se eleva as famílias têm mais incentivos para reduzir o consumo presente e aumentar a sua poupança.&lt;/p&gt;
-&lt;p&gt;Já o empresário quando decide investir, considera o valor corrente do investimento, sua expectativa de retorno e o &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;custo de oportunidade&lt;/strong&gt;&lt;/span&gt; do investimento.
-O empresário precisa mensurar, de alguma maneira, qual é o retorno que esse investimento pode lhe oferecer. Se a taxa de juros for maior que o retorno esperado do &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;investimento produtivo&lt;/strong&gt;&lt;/span&gt;, o empresário não terá incentivo para fazê-lo. Por dois motivos principais, taxas de juros elevadas encarecem o crédito no mercado, ou seja, o empréstimo para o investimento produtivo fica mais caro. O segundo motivo é que a taxa de juros elevada incentiva o investimento no mercado financeiro.&lt;/p&gt;
+&lt;div id=&#34;ótica-da-demanda-ou-despesa&#34; class=&#34;section level2&#34; number=&#34;2.3&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.3&lt;/span&gt; Ótica da demanda (ou despesa)&lt;/h2&gt;
+&lt;p&gt;Pela ótica do dispêndio, o PIB resulta da soma dos dispêndios em consumo das unidades familiares e do governo, mais as variações de estoques, menos as importações de mercadorias e serviços, e mais as exportações. Sob essa ótica, o PIB é também denominado &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;Despesa Interna Bruta&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
 
 &lt;div class=&#34;lemma&#34;&gt;
-&lt;span id=&#34;lem:unnamed-chunk-17&#34; class=&#34;lemma&#34;&gt;&lt;strong&gt;Nota 2  (Custo de oportunidade)  &lt;/strong&gt;&lt;/span&gt;
+&lt;span id=&#34;lem:unnamed-chunk-14&#34; class=&#34;lemma&#34;&gt;&lt;strong&gt;Nota 2.1  (Estoque)  &lt;/strong&gt;&lt;/span&gt;
 &lt;/div&gt;
 &lt;blockquote&gt;
-&lt;p&gt;[…]“Segundo esse conceito, os custos não devem ser considerados absolutos, mas iguais a uma segunda melhor oportunidade de benefícios não aproveitada. Ou seja,
-quando a decisão para as possibilidades de utilização de A exclui a escolha de um melhor B, podem-se considerar os benefícios não aproveitados decorrentes de B como custos de oportunidade” &lt;span class=&#34;citation&#34;&gt;(SANDRONI, &lt;a href=&#34;#ref-sandroni1999&#34; role=&#34;doc-biblioref&#34;&gt;1999&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;“Quantidade de um bem armazenado ou em conservação (matérias-primas, combustíveis, produtos semi-acabados ou acabados). Os bens podem ser estocados para venda, abastecimento de entressafra ou simplesmente para especulação. O estoque deve ser periodicamente avaliado para possibilitar o balanço anual de uma empresa. O volume total de estoques numa economia tende a crescer com o produto nacional e, a curto prazo, está sujeito a flutuações conjunturais (valorização ou depreciação, conforme o nível dos preços ou a situação cambial)” &lt;span class=&#34;citation&#34;&gt;(SANDRONI, &lt;a href=&#34;#ref-sandroni1999&#34; role=&#34;doc-biblioref&#34;&gt;1999&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;div class=&#34;corollary&#34;&gt;
+&lt;span id=&#34;cor:unnamed-chunk-15&#34; class=&#34;corollary&#34;&gt;&lt;strong&gt;Equação 2.4  (PIB sob a ótica da despesa)  &lt;/strong&gt;&lt;/span&gt;
+&lt;div class=&#34;math&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align}
+Y = C + I + G + (X-M)
+\end{align}\]&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;
+&lt;p&gt;&lt;font size=&#34;1&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(\textrm{O } Y \textrm{ representa o produto.}\)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;font size=&#34;2&#34;&gt;&lt;em&gt;“Lembrando que o termo ‘produto’ pode ser substituído pela palavra ‘renda’”&lt;/em&gt; &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Lopes2018&#34; role=&#34;doc-biblioref&#34;&gt;LOPES et al., 2018, p. 7&lt;/a&gt;)&lt;/span&gt; &lt;/font&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Consumo (C)
+&lt;ul&gt;
+&lt;li&gt;Bens e Serviços comprados pelos domicílios, i.e., bens não duráveis, bens duráveis e serviços.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Investimento (I)
+&lt;ul&gt;
+&lt;li&gt;Contempla a demanda da empresa por bens de capital, i.e., é a categoria de investimento que cria um capital. No Brasil, corresponde à Formação Bruta de Capital Fixo (FBCF), considerando a depreciação e a variação do estoque.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Gastos do governo (G)
+&lt;ul&gt;
+&lt;li&gt;São os bens e serviços comprados pelos governos federal, estadual e municipal.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Exportações líquidas, Exportações - Importações (X-M)
+&lt;ul&gt;
+&lt;li&gt;Em sentido estrito, essa diferença representa o saldo do Balanço de Pagamento em Transações Correntes, ou seja, o saldo da balança comercial, de serviços, a renda primária e a renda secundária. Cf. Lopes et al. &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Lopes2018&#34; role=&#34;doc-biblioref&#34;&gt;2018, p. 8&lt;/a&gt;)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- PIB e seus componetes inicio --&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;A Figura &lt;a href=&#34;#fig:interanualgraph&#34;&gt;2.3&lt;/a&gt; mostra a variação do PIB e de seus componentes em relação ao mesmo trimestre do ano anterior segundo a ótica da demanda.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:interanualgraph&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/courses/macroeconomia/produto/index.pt_files/figure-html/interanualgraph-1.png&#34; alt=&#34;Variação interanual dos PIB sob a ótica da demanda&#34; width=&#34;864&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figura 2.3: Variação interanual dos PIB sob a ótica da demanda
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!-- PIB e seus componetes Fim --&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;exercícios-para-revisão&#34; class=&#34;section level1&#34; number=&#34;3&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;3&lt;/span&gt; Exercícios para revisão&lt;/h1&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Aponte a alternativa &lt;strong&gt;incorreta&lt;/strong&gt;.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;p&gt;A microeconomia é o estudo que trata dos mercados individuais e dos tomadores de decisão.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A macroeconomia é o estudo da economia como um todo, incluindo crescimento em termos de renda, variação de preços e taxa de desemprego.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Capital é o estoque de equipamentos e estruturas utilizados no processo de produção.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Investimento são os bens adquiridos por indivíduos e por empresas com a finalidade de acrescentá-los a seus respectivos estoques de capital.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Exportações líquidas corresponde às exportações mais as importações.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;e. Exportações líquidas, Exportações - Importações (X-M)&lt;/p&gt;
+&lt;/details&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Quais dos itens a seguir a Macroeconomia &lt;strong&gt;não&lt;/strong&gt; estuda?&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;p&gt;mudanças no preço das ações.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;mudanças na taxa de desemprego.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;mudanças no aumento do PIB real na economia.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;mudanças na taxa de inflação.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;mudanças na taxa de câmbio.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;a.&lt;/p&gt;
+&lt;/details&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;5&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;6&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;7&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;8&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;9&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;10&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;11&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;12&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;13&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;14&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;15&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;16&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;17&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;18&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;19&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;20&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ol start=&#34;21&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Resposta:&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;referências&#34; class=&#34;section level1 unnumbered&#34;&gt;
 &lt;h1&gt;Referências&lt;/h1&gt;
 &lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body&#34; entry-spacing=&#34;1&#34;&gt;
-&lt;div id=&#34;ref-Lopes2018&#34; class=&#34;csl-entry&#34;&gt;
-LOPES, Luiz Martins; BRAGA, Márcio Bobik; VASCONCELLOS, Marco Antonio Sandoval de; TONETO, Rudinei, Junior. &lt;strong&gt;Macroeconomia: &lt;span&gt;Teoria e Aplicações de Política Econômica&lt;/span&gt;&lt;/strong&gt;. 4. ed. São Paulo: Atlas, 2018.
-&lt;/div&gt;
 &lt;div id=&#34;ref-Lopes2008&#34; class=&#34;csl-entry&#34;&gt;
-LOPES, Luiz Martins; VASCONCELLOS, Marco Antonio Sandoval de; GREMAUD, Amaury Patrick; LUQUE, Carlos Antonio; MARTONE, Celso Luiz; BRAGA, Márcio Bobik; TONETO, Rudinei, Junior; PESSOA, Samuel de Abreu; SCHOR, Silvia Maria. &lt;strong&gt;&lt;span&gt;Manual de Macroeconomia&lt;/span&gt;: &lt;span&gt;Básico e Intermediário&lt;/span&gt;&lt;/strong&gt;. 3. ed. São Paulo: Atlas, 2008.
+LOPES, L. M. et al. &lt;strong&gt;&lt;span&gt;Manual de Macroeconomia&lt;/span&gt;: &lt;span&gt;Básico e Intermediário&lt;/span&gt;&lt;/strong&gt;. 3. ed. São Paulo: Atlas, 2008.
+&lt;/div&gt;
+&lt;div id=&#34;ref-Lopes2018&#34; class=&#34;csl-entry&#34;&gt;
+LOPES, L. M. et al. &lt;strong&gt;Macroeconomia: &lt;span&gt;Teoria e Aplicações de Política Econômica&lt;/span&gt;&lt;/strong&gt;. 4. ed. São Paulo: Atlas, 2018.
 &lt;/div&gt;
 &lt;div id=&#34;ref-Mankiw2010&#34; class=&#34;csl-entry&#34;&gt;
-MANKIW, N. Gregory. &lt;strong&gt;Macroeconomia&lt;/strong&gt;. 7. ed. Rio de Janeiro: LTC, 2010.
+MANKIW, N. G. &lt;strong&gt;Macroeconomia&lt;/strong&gt;. 7. ed. Rio de Janeiro: LTC, 2010.
 &lt;/div&gt;
 &lt;div id=&#34;ref-sandroni1999&#34; class=&#34;csl-entry&#34;&gt;
-SANDRONI, Paulo. &lt;strong&gt;Nov&lt;span&gt;ı́&lt;/span&gt;ssimo dicion&lt;span&gt;á&lt;/span&gt;rio de economia&lt;/strong&gt;. São Paulo: Editora Best Seller, 1999.
+SANDRONI, P. &lt;strong&gt;Nov&lt;span&gt;ı́&lt;/span&gt;ssimo dicion&lt;span&gt;á&lt;/span&gt;rio de economia&lt;/strong&gt;. São Paulo: Editora Best Seller, 1999.
 &lt;/div&gt;
 &lt;div id=&#34;ref-sidra2021&#34; class=&#34;csl-entry&#34;&gt;
-SIDRA. &lt;strong&gt;Sistema IBGE de Recupera&lt;span&gt;ç&lt;/span&gt;ão Autom&lt;span&gt;á&lt;/span&gt;tica - SIDRA&lt;/strong&gt;. Bras&lt;span&gt;í&lt;/span&gt;lia: IBGE, 2021. Disponível em: &lt;a href=&#34;https://sidra.ibge.gov.br&#34;&gt;https://sidra.ibge.gov.br&lt;/a&gt;.
+SIDRA. &lt;strong&gt;Sistema IBGE de Recupera&lt;span&gt;ç&lt;/span&gt;ão Autom&lt;span&gt;á&lt;/span&gt;tica - SIDRA&lt;/strong&gt;. Bras&lt;span&gt;í&lt;/span&gt;lia: IBGE, 2021.
 &lt;/div&gt;
 &lt;div id=&#34;ref-Vasconcellos2018&#34; class=&#34;csl-entry&#34;&gt;
-VASCONCELLOS, Marco Antonio Sandoval; GARCIA, Manuel Enriquez. &lt;strong&gt;Fundamentos de &lt;span&gt;Economia&lt;/span&gt;&lt;/strong&gt;. 6. ed. S&lt;span&gt;ã&lt;/span&gt;o Paulo: Saraiva, 2018. p. 368
+VASCONCELLOS, M. A. S.; GARCIA, M. E. &lt;strong&gt;Fundamentos de &lt;span&gt;Economia&lt;/span&gt;&lt;/strong&gt;. 6. ed. S&lt;span&gt;ã&lt;/span&gt;o Paulo: Saraiva, 2018. p. 368
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</description>
+&lt;/p&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;/details&gt;</description>
     </item>
     
   </channel>
