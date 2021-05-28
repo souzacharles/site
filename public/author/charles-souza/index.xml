@@ -5,169 +5,116 @@
     <link>/author/charles-souza/</link>
       <atom:link href="/author/charles-souza/index.xml" rel="self" type="application/rss+xml" />
     <description>Charles Souza</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/author/charles-souza/avatar_hubaf51ad3dfb8dc45d626c0aa0b462e09_4646176_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>/media/icon_hu07acfe0edfa07a39670764eba332f45f_49366_512x512_fill_lanczos_center_2.png</url>
       <title>Charles Souza</title>
       <link>/author/charles-souza/</link>
     </image>
     
     <item>
-      <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
-&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%28%23MadeWithWowchemy%20OR%20%23MadeWithAcademic%29&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/guide/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
-&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
-&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example preprint / working paper</title>
-      <link>/publication/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/preprint/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Display Jupyter Notebooks with Academic</title>
-      <link>/post/jupyter/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/jupyter/</guid>
-      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
-Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;Welcome to Academic!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
-&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
-&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-jupyter lab index.ipynb
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
-&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
-&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;---
-title: My post&#39;s title
-date: 2019-09-01
+      <title>Fundamentos da Macroeconomia</title>
+      <link>/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      <guid>/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
 
-# Put any other Academic metadata here...
----
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Edit the metadata of your post, using the &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
-&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
-&lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
-&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example journal article</title>
-      <link>/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;div id=&#34;introdução&#34; class=&#34;section level1&#34; number=&#34;1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Introdução&lt;/h1&gt;
+&lt;p&gt;Textos de referência Vasconcellos e Garcia &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Vasconcellos2018&#34; role=&#34;doc-biblioref&#34;&gt;2018&lt;/a&gt;)&lt;/span&gt;; Lopes et al. &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Lopes2018&#34; role=&#34;doc-biblioref&#34;&gt;2018&lt;/a&gt;)&lt;/span&gt;; Lopes et al. &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Lopes2008&#34; role=&#34;doc-biblioref&#34;&gt;2008&lt;/a&gt;)&lt;/span&gt; e Mankiw &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Mankiw2010&#34; role=&#34;doc-biblioref&#34;&gt;2010&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;O que estudam os Macroeconomistas?&lt;/p&gt;
+&lt;p&gt;Para responder esta questão veja as seguintes manchetes sobre a economia brasileira:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;“PIB de 2020 fecha com queda de 4,1%, revela pesquisa do IBGE” &lt;span class=&#34;citation&#34;&gt;(Agência Brasil, &lt;a href=&#34;#ref-agenciabrasil2021&#34; role=&#34;doc-biblioref&#34;&gt;2021&lt;/a&gt;)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;“Copom eleva a taxa Selic para 2,75% a.a.” &lt;span class=&#34;citation&#34;&gt;(BCB, &lt;a href=&#34;#ref-bcb2021&#34; role=&#34;doc-biblioref&#34;&gt;2021&lt;/a&gt;)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;“Produção industrial cresce em sete dos 15 locais pesquisados em janeiro” &lt;span class=&#34;citation&#34;&gt;(Agência IBGE, &lt;a href=&#34;#ref-ibge2021&#34; role=&#34;doc-biblioref&#34;&gt;2021a&lt;/a&gt;)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;“Inflação avança 0,86% em fevereiro, maior alta para o mês desde 2016” &lt;span class=&#34;citation&#34;&gt;(Agência IBGE, &lt;a href=&#34;#ref-ibge2021a&#34; role=&#34;doc-biblioref&#34;&gt;2021b&lt;/a&gt;)&lt;/span&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;É a partir dessas notícias que o objeto de estudo de um macroeconomista se torna inteligível. De modo resumido, a macroeconomia enfoca problemas inerentes à coleta e à análise de dados econômicos não experimentais (dados observáveis). Ou seja, os macroeconomistas coletam, em diferentes períodos, informações sobre o produto interno de um país, a inflação, o desemprego, a taxa de câmbio, a taxa de juros, ente outras, e propõem teorias e modelos (interpretações da realidade baseadas em algumas hipóteses simplificadoras) para explicar o comportamento dessas variáveis.&lt;/p&gt;
+&lt;p&gt;A macroeconomia é caracterizada como uma ciência inexata em função do seu objeto de estudo, a saber: o comportamento do coletivo, que depende da ação de milhões de &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;agentes econômicos&lt;/strong&gt;&lt;/span&gt; com objetivos, restrições e preferências distintas.&lt;/p&gt;
+&lt;!--
+Posto de outro modo, a macroeconomia é o &#34;*estudo da economia como um todo agregado*&#34; [@Mankiw2010]. Ou ainda, dizemos que, &#34;*Em termos gerais, pode-se definir a macroeconomia como a área de economia que estuda comportamento das denominadas variáveis macroeconômicas como o produto interno de um país (ou o Produto Interno Bruto), a inflação, o desemprego, a taxa de câmbio, a taxa de juros etc [...]*&#34; [@Lopes2018].
+
+A macroeconomia é uma ciência inexata em função do seu objeto de estudo, a saber:  o comportamento do coletivo, que depende da ação de milhões de &lt;span style=&#34;     color: #5d8aa8 !important;&#34; &gt;**agentes econômicos**&lt;/span&gt; com objetivos, restrições e preferências distintas.
+Os macroeconomistas, por supostos, procuram abstrair essas dificuldades naturais por meio da construção de modelos, interpretações da realidade baseadas em algumas hipóteses simplificadoras.--&gt;
+
+&lt;div class=&#34;lemma&#34;&gt;
+&lt;span id=&#34;lem:unnamed-chunk-2&#34; class=&#34;lemma&#34;&gt;&lt;strong&gt;Nota 1.1  (Agentes econômicos)  &lt;/strong&gt;&lt;/span&gt;
 &lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;Famílias:&lt;/strong&gt;&lt;/span&gt; os agentes econômicos constituídos pelas “Unidades familiares” são todas as pessoas residentes no país e são detentoras e ofertantes dos “fatores de produção” (capital, trabalho e terra além de conceitos de capacidade empresarial e capacidade tecnológica, presentes na literatura econômica atual).&lt;br /&gt;
+&lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;Empresas:&lt;/strong&gt;&lt;/span&gt; são agentes econômicos constituídos pelas unidades de produção localizadas no país, tanto do setor primário, secundário e terciário, são as ofertantes de bens e serviços a sociedade.&lt;br /&gt;
+&lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;Governos:&lt;/strong&gt;&lt;/span&gt; são os agentes econômicos construídos pelo Estado em todas as suas esferas, municipal, estadual e federal.&lt;br /&gt;
+&lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;Resto do mundo:&lt;/strong&gt;&lt;/span&gt; são os Agentes econômicos constituídos por todos os países com os quais mantêm-se relações.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As próximas seções apresentam os conceitos e definições das principais variáveis econômicas, a saber: produto, inflação, juros e câmbio.&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example conference paper</title>
-      <link>/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/conference-paper/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
+&lt;div id=&#34;pib-pnb-pnl-e-pil&#34; class=&#34;section level1&#34; number=&#34;2&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;2&lt;/span&gt; PIB, PNB, PNL e PIL&lt;/h1&gt;
+&lt;p&gt;Textos de referência Vasconcellos e Garcia &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Vasconcellos2018&#34; role=&#34;doc-biblioref&#34;&gt;2018, p. 181–187&lt;/a&gt;)&lt;/span&gt;; Lopes et al. &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Lopes2018&#34; role=&#34;doc-biblioref&#34;&gt;2018, p. 7&lt;/a&gt;)&lt;/span&gt;; Lopes et al. &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Lopes2008&#34; role=&#34;doc-biblioref&#34;&gt;2008, p. 28–29, 42–44&lt;/a&gt;)&lt;/span&gt; e Mankiw &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Mankiw2010&#34; role=&#34;doc-biblioref&#34;&gt;2010, p. 23–25&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;O Produto Interno Bruto (PIB) refere-se ao &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;valor agregado&lt;/strong&gt;&lt;/span&gt; de todos os bens e serviços &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;finais&lt;/strong&gt;&lt;/span&gt; produzidos dentro do território econômico de um país durante um intervalo de tempo (geralmente três meses ou um ano), independentemente da nacionalidade dos proprietários das unidades produtoras desses bens e serviços. A Figura &lt;a href=&#34;#fig:pib&#34;&gt;2.1&lt;/a&gt; demonstra a trajetória do PIB por meio do Número Índice (base: 01/01/1995 = 100) entre 1996-2020 — Série n.º 22109 do Banco Central do Brasil (BCB).&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:pib&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/pib-1.png&#34; alt=&#34;Produto Interno Bruto&#34; width=&#34;864&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figura 2.1: Produto Interno Bruto
+&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;O PIB mede o total da renda produzida &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;internamente&lt;/strong&gt;&lt;/span&gt;. Já o Produto Nacional Bruto (PNB) mensura a renda total ganha pelos chamados &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;nacionais&lt;/strong&gt;&lt;/span&gt; (residentes de uma nação).&lt;/p&gt;
+&lt;!-- nota --&gt;
+
+&lt;div class=&#34;lemma&#34;&gt;
+&lt;span id=&#34;lem:unnamed-chunk-3&#34; class=&#34;lemma&#34;&gt;&lt;strong&gt;Nota 2.1  (Residentes e Não residentes)  &lt;/strong&gt;&lt;/span&gt;
 &lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
- séries temporais. Para esse fim, utilizar-se-á o programa Excel da Microsoft e, principalmente, o \textit{software} estatístico \href{https://www.r-project.org/}{\faRProject}.\footnote{O conteúdo prático tem como objetivo consolidar os conceitos teóricos sobre inflação, não haverá questões sobre os \textit{softwares} na avaliação de macroeconomia.}--&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Residentes são indivíduos estabelecidos no território do país e cuja atividade está sujeita à legislação daquele país. Não residentes, por outro lado, são indivíduos estabelecidos no exterior, os que se encontram em trânsito no país e os que estão estabelecidos no país mas têm suas atividades financiadas e legisladas pelo seu país de origem.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&#34;corollary&#34;&gt;
+&lt;p&gt;&lt;span id=&#34;cor:unnamed-chunk-4&#34; class=&#34;corollary&#34;&gt;&lt;strong&gt;Equação 2.1  (PIB &lt;em&gt;versus&lt;/em&gt; PNB)  &lt;/strong&gt;&lt;/span&gt;
+&lt;span class=&#34;math display&#34;&gt;\[PNB = PIB + RLE\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font size=&#34;1&#34;&gt;&lt;br /&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(\textrm{Receita Líquida do Exterior (RLE)} = \textrm{renda recebida do exterior - renda enviada ao exterior}\)&lt;/span&gt; &lt;br&gt; &lt;span class=&#34;math inline&#34;&gt;\(\textrm{Outra especificação comum: PNB = PIB - RLEE}\)&lt;/span&gt; &lt;br&gt; &lt;span class=&#34;math inline&#34;&gt;\(\textrm{Renda Líquida Enviada ao Exterior (RLEE) é a diferença entre valores enviados ao exterior e os valores recebidos do exterior}\)&lt;/span&gt;&lt;/p&gt;
+&lt;/font&gt;
+&lt;/div&gt;
+&lt;p&gt;Logo, se a &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;renda recebida ao exterior&lt;/strong&gt;&lt;/span&gt; é maior &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;renda enviada do exterior&lt;/strong&gt;&lt;/span&gt;, há mais entradas do que saídas, ou seja, a RLE é positiva, PNB&lt;span class=&#34;math inline&#34;&gt;\(&amp;gt;\)&lt;/span&gt;PIB. Os países desenvolvidos costumam ter PNB maior que o PIB. No Brasil, o PNB é menor que o PIB, enviam-se mais recursos ao exterior do que se recebe.&lt;/p&gt;
+&lt;p&gt;Por exemplo, uma empresa americana com sede naquele país possui uma filial no Brasil. A parcela do lucro da filial enviada aos Estados Unidos é parte integrante do PNB americano. Em outras palavras, a filial brasileira contribui para elevar o PIB do Brasil e, em simultâneo, aumenta o PNB dos Estados Unidos quando envia parte de seus lucros para aquele país.&lt;/p&gt;
+&lt;p&gt;Outro exemplo, um engenheiro brasileiro presta um serviço para uma empresa americana situada nos Estados Unidos, o produto decorrente dessa atividade é parte integrante do PIB daquele país. Por outro lado, essa renda auferida pelo cidadão brasileiro compõe o PNB do Brasil.&lt;/p&gt;
+&lt;p&gt;É importante salientar que o PNB engloba os rendimentos obtidos pelos cidadãos e pelas empresas no exterior, mas não engloba os rendimentos obtidos por &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;estrangeiros&lt;/strong&gt;&lt;/span&gt; no país, ou seja, PNB não incorpora o valor dos serviços realizados para produzir bens materiais, porque o seu valor é incluído no preço do produto acabado.&lt;/p&gt;
+&lt;p&gt;Para obter o Produto Nacional Líquido (PNL), subtraímos do PNB a depreciação do capital.&lt;/p&gt;
+
+&lt;div class=&#34;corollary&#34;&gt;
+&lt;span id=&#34;cor:unnamed-chunk-5&#34; class=&#34;corollary&#34;&gt;&lt;strong&gt;Equação 2.2  (PNL)  &lt;/strong&gt;&lt;/span&gt;&lt;span class=&#34;math display&#34;&gt;\[PNL = PNB - \textrm{Depreciação}\]&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;Do mesmo modo, o Produto Interno Líquido (PIL) é caracterizado pela diferença entre o PIB e a depreciação do capital.&lt;/p&gt;
+
+&lt;div class=&#34;corollary&#34;&gt;
+&lt;span id=&#34;cor:unnamed-chunk-6&#34; class=&#34;corollary&#34;&gt;&lt;strong&gt;Equação 2.3  (PIL)  &lt;/strong&gt;&lt;/span&gt;&lt;span class=&#34;math display&#34;&gt;\[PIL = PIB - \textrm{Depreciação}\]&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;lemma&#34;&gt;
+&lt;span id=&#34;lem:unnamed-chunk-7&#34; class=&#34;lemma&#34;&gt;&lt;strong&gt;Nota 2.2  (Depreciação)  &lt;/strong&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Redução do valor ativo em consequência de desgaste pelo uso, obsolescência tecnológica ou queda no preço de mercado, geralmente de máquinas, equipamentos e edificações.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Outro conceito importante que caracteriza o Produto diz respeito às tributações e subsídios dos fatores de produção. No caso do PNB, teríamos o Produto Nacional Bruto &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;a custo de fatores&lt;/strong&gt;&lt;/span&gt; (PNB&lt;span class=&#34;math inline&#34;&gt;\(_{cf}\)&lt;/span&gt;) quando mensuramos o PNB sem considerar os &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;impostos indiretos&lt;/strong&gt;&lt;/span&gt; e os &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;subsídios&lt;/strong&gt;&lt;/span&gt;. Se considerarmos essas variáveis, teríamos o PNB a &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;preço de mercado (pm).&lt;/strong&gt;&lt;/span&gt; Logo:&lt;/p&gt;
+
+&lt;div class=&#34;corollary&#34;&gt;
+&lt;span id=&#34;cor:unnamed-chunk-8&#34; class=&#34;corollary&#34;&gt;&lt;strong&gt;Equação 2.4  (PNB preço de mercado e a custo de fatores)  &lt;/strong&gt;&lt;/span&gt;
+&lt;span class=&#34;math display&#34;&gt;\[PNB_{pm}= PNB_{cf}+ \textrm{impostos indiretos - subsídios}\]&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;Assim, há várias combinações possíveis. e.g., PIB&lt;span class=&#34;math inline&#34;&gt;\(_{pm}\)&lt;/span&gt;, PIB&lt;span class=&#34;math inline&#34;&gt;\(_{cf}\)&lt;/span&gt;, PIL&lt;span class=&#34;math inline&#34;&gt;\(_{pm}\)&lt;/span&gt;, PIL&lt;span class=&#34;math inline&#34;&gt;\(_{cf}\)&lt;/span&gt;…&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;inflação&#34; class=&#34;section level1&#34; number=&#34;3&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;3&lt;/span&gt; Inflação&lt;/h1&gt;
+&lt;p&gt;Textos de referência Vasconcellos e Garcia &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Vasconcellos2018&#34; role=&#34;doc-biblioref&#34;&gt;2018, p. 221, 302–314&lt;/a&gt;)&lt;/span&gt;; Lopes et al. &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Lopes2018&#34; role=&#34;doc-biblioref&#34;&gt;2018, p. 11–13, 56&lt;/a&gt;)&lt;/span&gt;; Lopes et al. &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Lopes2008&#34; role=&#34;doc-biblioref&#34;&gt;2008, p. 294–306&lt;/a&gt;)&lt;/span&gt; e Mankiw &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Mankiw2010&#34; role=&#34;doc-biblioref&#34;&gt;2010, p. 25–28, 301–303&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;O objetivo deste &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;resumo&lt;/strong&gt;&lt;/span&gt; é apresentar conceitos básicos sobre inflação e evidenciar os principais índices de preços empregados no Brasil. &lt;!-- e, ademais,  demonstrar  algumas técnicas para deflacionar séries temporais. Para esse fim, utilizar-se-á o programa Excel da Microsoft e, principalmente, o \textit{software} estatístico \href{https://www.r-project.org/}{\faRProject}.\footnote{O conteúdo prático tem como objetivo consolidar os conceitos teóricos sobre inflação, não haverá questões sobre os \textit{softwares} na avaliação de macroeconomia.}--&gt;&lt;/p&gt;
 &lt;p&gt;O que é inflação? De modo resumido, a inflação é o processo de crescimento &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;contínuo&lt;/strong&gt;&lt;/span&gt; e &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;generalizado&lt;/strong&gt;&lt;/span&gt; dos preços numa economia. A taxa de inflação é um indicador do aumento percentual do nível geral de preços.&lt;/p&gt;
 
 &lt;div class=&#34;corollary&#34;&gt;
