@@ -35,6 +35,18 @@
     <loc>/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2021-05-28T16:27:44-03:00</lastmod>
+  </url><url>
+    <loc>/post/patentes/</loc>
+    <lastmod>2021-05-28T16:27:44-03:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2021-05-28T16:27:44-03:00</lastmod>
+  </url><url>
+    <loc>/category/r/</loc>
+    <lastmod>2021-05-28T16:27:44-03:00</lastmod>
+  </url><url>
     <loc>/authors/</loc>
     <lastmod>2021-05-06T01:15:09-03:00</lastmod>
   </url><url>
@@ -77,16 +89,10 @@
     <loc>/tag/academic/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/author/charles-souza/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/category/demo/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/getting-started/</loc>
@@ -105,9 +111,6 @@
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
     <loc>/tag/plot/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>/category/r/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
     <loc>/tag/r-markdown/</loc>
