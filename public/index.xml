@@ -1324,9 +1324,6 @@ VASCONCELLOS, M. A. S.; GARCIA, M. E. &lt;strong&gt;Fundamentos de &lt;span&gt;E
 &lt;script src=&#34;/post/patentes/index.pt_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;/post/patentes/index.pt_files/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;/post/patentes/index.pt_files/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/post/patentes/index.pt_files/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/post/patentes/index.pt_files/pymjs/pym.v1.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/post/patentes/index.pt_files/widgetframe-binding/widgetframe.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;patentes-no-segmento-de-aeronaves&#34; class=&#34;section level2&#34;&gt;
@@ -1399,9 +1396,7 @@ Veículos espaciais (incluindo os satélites) e seus veículos de lançamento, e
 &lt;/table&gt;
 &lt;!-- Aeronaves acabadas --&gt;
 &lt;p&gt;A figura abaixo evidencia o depósito de patentes do segmento em foco entre 2000 e 2020.&lt;/p&gt;
-&lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:100%;height:480px;&#34; class=&#34;widgetframe html-widget&#34;&gt;&lt;/div&gt;
-&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;url&#34;:&#34;index.pt_files/figure-html//widgets/widget_data_aer.html&#34;,&#34;options&#34;:{&#34;xdomain&#34;:&#34;*&#34;,&#34;allowfullscreen&#34;:false,&#34;lazyload&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
-&lt;iframe src=&#34;~/Pos/Site/site/site/assets/media/leaflet/mapa_aer.html&#34; height=&#34;600px&#34; width=&#34;100%&#34; style=&#34;border:none;&#34;&gt;
+&lt;iframe src=&#34;mapa_aer.html&#34; height=&#34;600px&#34; width=&#34;100%&#34; style=&#34;border:none;&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
 </description>
@@ -1543,7 +1538,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-489732516&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-583149726&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -1553,7 +1548,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-489732516&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-583149726&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
