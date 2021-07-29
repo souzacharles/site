@@ -1,16 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Charles Souza</title>
+    <title>Postagens | Charles Souza</title>
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate>
+    <description>Postagens</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Tue, 27 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hu07acfe0edfa07a39670764eba332f45f_49366_512x512_fill_lanczos_center_2.png</url>
-      <title>Posts</title>
+      <title>Postagens</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>Moeda</title>
+      <link>/post/moeda/</link>
+      <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>/post/moeda/</guid>
+      <description>
+&lt;script src=&#34;/post/moeda/index.pt_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;A moeda é um instrumento ou objeto utilizado pela coletividade para intermediar transações econômicas.&lt;/p&gt;
+&lt;p&gt;A literatura econômica subdivide em três as funções de moeda:
+&lt;em&gt;Reserva de Valor&lt;/em&gt;, transferência intertemporal do poder de compra, a quantidade de moeda pode ser acumulada para aquisição de um bem ou serviço no futuro; a moeda também assume a função de &lt;em&gt;Unidade de Conta&lt;/em&gt; que estabelece os termos pelos quais os preços são determinados, o comércio, por exemplo, estipula os preços em moeda corrente, e.g., Real, Dólar, Euro; e por último a moeda assume a função de &lt;em&gt;Meio de Troca&lt;/em&gt;, i.e., é o objeto que utilizamos para intermediar o fluxo de bens e serviços, um determinado ativo pode ser convertido em meio de troca e utilizados para adquirir outros bens e serviços.&lt;!-- Sem dúvida a moeda foi umas das grandes invenções da humanidade.--&gt;
+&lt;!--Seria bem excêntrico se as transações comerciais atuais fossem feitas por escambo. Quanto de soja seria necessário para comprar um notebook? Algumas aproximações: a saca de soja de 60 kg foi cotada (CEPEA ESALQ/USP 17/02/2012)em R$ 50,50, assim, seriam necessárias mais de 2 toneladas (2376,23 Kg) de soja para comprar um notebook no valor de R$ 2 mil, absolutamente inviável. Obviamente notebooks não existiriam se a moeda não tivesse sido inventada. Fica claro o papel da moeda no desenvolvimento da sociedade.--&gt;&lt;/p&gt;
+&lt;p&gt;É certo, porém, que uma das características distintivas da invenção da moeda é sua capacidade de facilitar e potencializar as relações socioeconômicas. Antes do surgimento da moeda o fluxo comercial realizava-se por escambo, trocas diretas de mercadoria por mercadoria. Posteriormente, algumas dessas mercadorias foram adotadas como meio de troca entre produtos. O sal, por exemplo, era aceito na Roma Antiga como moeda.&lt;/p&gt;
+&lt;p&gt;De modo análogo, os metais preciosos, por serem mais escassos, assumiram a função de moeda.
+Um dos aspectos mais interessantes desse processo foi o depósito desses metais em casas especializadas. Estas, emitiam certificados dos depósitos que, ulteriormente, torna-se-iam o papel-moeda, inicialmente com a obrigatoriedade de um lastro em ouro e, a posteriori, a moeda passou a ser aceita por força de lei, moeda fiduciária.&lt;!-- o Estado passa a monopolizar a emissão de papel-moeda  passaram a emitir moeda-papel sem nenhum lastro, inicialmente --&gt;&lt;/p&gt;
+&lt;p&gt;É possível estabelecer um certo grau de continuidade entre o certificado de depósito, o papel-moeda lastreado, a moeda fiduciária e a iminente forma de mediação das relações econômicas, a criptomoeda. Contudo, existe um fio condutor que precisa ser conectado. A alta volatividade das criptomoedas compromete sua capacidade de acumular capital (de modo relativamente estável) ao longo do tempo.
+Esse conceito de estabilidade é um dos determinantes da existência dos Bancos Centrais, que tem como função principal a estabilidade da moeda. Logo, as moedas digitais, até o momento, não possui a função de &lt;em&gt;reserva de valor&lt;/em&gt;, em função da alta volatilidade. Do mesmo modo, as criptomoedas não podem ser consideradas como &lt;em&gt;unidade de conta&lt;/em&gt;. Excetuando-se casos especíﬁcos de transações pela internet (e pouquíssimos pontos comerciais que aceitam esse ativo), em geral, o preço das mercadorias e dos serviços são cotados em moedas comuns, e.g., Real, Euro, Dólar. Indubitavelmente, as criptomoedas se encaixam como &lt;em&gt;meio de troca&lt;/em&gt;, mesmo que não sejam (ainda) universalmente aceitas.&lt;/p&gt;
+&lt;!--Mais precisamente, a partir de um processo de institucionalização da moeda como instrumento de troca comercial as transações econômicas --&gt;
+&lt;p&gt;Reconhece-se, explicitamente, que o advento da moeda foi fundamental para o progresso da sociedade.
+Não obstante, esse progresso andou &lt;em&gt;pari passu&lt;/em&gt; com algumas chagas sociais.
+A moeda, em suas diferentes modalidades, pode persuadir e corromper a natureza humana.&lt;!-- Quando não utilizada adequadamente, a moeda (dinheiro) pode causar uma involução social importante.--&gt; A consubstanciação entre dinheiro e amor gerou uma infinidade de malefícios à humanidade. O amor ao dinheiro como dizia Paulo, o apostolo, é a raiz de todo mal “&lt;em&gt;Porque o amor ao dinheiro é a raiz de toda a espécie de males.&lt;/em&gt;” (I Timóteo 6: 10.ª). Qual a essência de todas as guerras, da corrupção, da violência urbana, da ganância, dos cibercrimes e de todas as mazelas sociais? O dinheiro? Não, mas o &lt;span style=&#34;color:#5d8aa8&#34;&gt; &lt;strong&gt;amor&lt;/strong&gt; &lt;/span&gt; ao dinheiro. A historiografia evidencia que algumas dessas mazelas já existiam antes do advento da moeda, contudo, esta facilitou e potencializou aquelas.&lt;/p&gt;
+&lt;!--Os lisossomos, responsáveis pela digestão intracelular, quando sua membrana se rompe, por fatores externos, causa a autodestruição da célula, autólise negativa. Uma organela com função essencial para manutenção e desenvolvimento da célula quando corrompida pode levá-la a se autodestruir. --&gt;
+&lt;p&gt;Quando amamos o dinheiro priorizamos coisas em detrimento de pessoas, ou seja, coisificamos as pessoas e atribuímos um sentimento humano, o amor, a uma invenção, a moeda, as consequências são desumanização e autodestruição. Enfim dinheiro é bom e útil, contudo, não podemos amá-lo.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Patentes</title>
@@ -240,7 +267,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-571246938&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-135892476&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -250,7 +277,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-571246938&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-135892476&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
