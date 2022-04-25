@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Economia e Afins | Charles Souza</title>
-    <link>/publication/</link>
-      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://charlessouza.com/publication/</link>
+      <atom:link href="https://charlessouza.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Economia e Afins</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language>
     <image>
-      <url>/media/icon_hu07acfe0edfa07a39670764eba332f45f_49366_512x512_fill_lanczos_center_2.png</url>
+      <url>https://charlessouza.com/media/icon_hu07acfe0edfa07a39670764eba332f45f_49366_512x512_fill_lanczos_center_2.png</url>
       <title>Economia e Afins</title>
-      <link>/publication/</link>
+      <link>https://charlessouza.com/publication/</link>
     </image>
     
   </channel>

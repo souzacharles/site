@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>🏦 Princípios de Macroeconomia | Charles Souza</title>
-    <link>/courses/macroeconomia/</link>
-      <atom:link href="/courses/macroeconomia/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://charlessouza.com/courses/macroeconomia/</link>
+      <atom:link href="https://charlessouza.com/courses/macroeconomia/index.xml" rel="self" type="application/rss+xml" />
     <description>🏦 Princípios de Macroeconomia</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>pt</language><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/courses/macroeconomia/featured.jpg</url>
+      <url>https://charlessouza.com/courses/macroeconomia/featured.jpg</url>
       <title>🏦 Princípios de Macroeconomia</title>
-      <link>/courses/macroeconomia/</link>
+      <link>https://charlessouza.com/courses/macroeconomia/</link>
     </image>
     
     <item>
       <title>Fundamentos da Macroeconomia</title>
-      <link>/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos/</link>
+      <link>https://charlessouza.com/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      <guid>/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos/</guid>
+      <guid>https://charlessouza.com/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://charlessouza.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://charlessouza.com/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://charlessouza.com/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
 
 
 &lt;p&gt;&lt;/p&gt;
@@ -59,7 +59,7 @@ Os macroeconomistas, por supostos, procuram abstrair essas dificuldades naturais
 &lt;p&gt;Textos de referência Vasconcellos e Garcia &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Vasconcellos2018&#34; role=&#34;doc-biblioref&#34;&gt;2018, p. 181–187&lt;/a&gt;)&lt;/span&gt;; Lopes et al. &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Lopes2018&#34; role=&#34;doc-biblioref&#34;&gt;2018, p. 7&lt;/a&gt;)&lt;/span&gt;; Lopes et al. &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Lopes2008&#34; role=&#34;doc-biblioref&#34;&gt;2008, p. 28–29, 42–44&lt;/a&gt;)&lt;/span&gt; e Mankiw &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-Mankiw2010&#34; role=&#34;doc-biblioref&#34;&gt;2010, p. 23–25&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;O Produto Interno Bruto (PIB) refere-se ao &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;valor agregado&lt;/strong&gt;&lt;/span&gt; de todos os bens e serviços &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;finais&lt;/strong&gt;&lt;/span&gt; produzidos dentro do território econômico de um país durante um intervalo de tempo (geralmente três meses ou um ano), independentemente da nacionalidade dos proprietários das unidades produtoras desses bens e serviços. A Figura &lt;a href=&#34;#fig:pib&#34;&gt;2.1&lt;/a&gt; demonstra a trajetória do PIB por meio do Número Índice (base: 01/01/1995 = 100) entre 1996-2020 — Série n.º 22109 do Banco Central do Brasil (BCB).&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:pib&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/pib-1.png&#34; alt=&#34;Produto Interno Bruto&#34; width=&#34;864&#34; /&gt;
+&lt;img src=&#34;https://charlessouza.com/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/pib-1.png&#34; alt=&#34;Produto Interno Bruto&#34; width=&#34;864&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figura 2.1: Produto Interno Bruto
 &lt;/p&gt;
@@ -126,7 +126,7 @@ Figura 2.1: Produto Interno Bruto
 &lt;/div&gt;
 &lt;p&gt;A Figura &lt;a href=&#34;#fig:ipcaindice&#34;&gt;3.1&lt;/a&gt; mostra o número-índice, a varição mensal e a variação anual da inflação no Brasil entre 2010 e início de 2021 — Tabela n.º 1737 do Sistema IBGE de Recuperação Automática &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-sidra2021&#34; role=&#34;doc-biblioref&#34;&gt;SIDRA, 2021&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:ipcaindice&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/ipcaindice-1.png&#34; alt=&#34;Número Índice, variação mensal e variação anual da inflação --- 2010--2021&#34; width=&#34;864&#34; /&gt;
+&lt;img src=&#34;https://charlessouza.com/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/ipcaindice-1.png&#34; alt=&#34;Número Índice, variação mensal e variação anual da inflação --- 2010--2021&#34; width=&#34;864&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figura 3.1: Número Índice, variação mensal e variação anual da inflação — 2010–2021
 &lt;/p&gt;
@@ -173,14 +173,14 @@ a &lt;span style=&#34;     color: #5d8aa8 !important;&#34;&gt;&lt;strong&gt;méd
 &lt;p&gt;A base de ponderação dos índices de preço ao consumidor calculados pelo IBGE é obtida através de pesquisas de orçamento familiar que levantam o peso de cada produto no consumo das famílias.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-14&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/unnamed-chunk-14-1.png&#34; alt=&#34;Peso dos grupos no IPCA&#34; width=&#34;864&#34; /&gt;
+&lt;img src=&#34;https://charlessouza.com/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/unnamed-chunk-14-1.png&#34; alt=&#34;Peso dos grupos no IPCA&#34; width=&#34;864&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figura 3.2: Peso dos grupos no IPCA
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-15&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/unnamed-chunk-15-1.png&#34; alt=&#34;Contribuição dos Grupos do IPCA para a Inflação Mensal&#34; width=&#34;864&#34; /&gt;
+&lt;img src=&#34;https://charlessouza.com/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/unnamed-chunk-15-1.png&#34; alt=&#34;Contribuição dos Grupos do IPCA para a Inflação Mensal&#34; width=&#34;864&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figura 3.3: Contribuição dos Grupos do IPCA para a Inflação Mensal
 &lt;/p&gt;
@@ -197,7 +197,7 @@ Figura 3.3: Contribuição dos Grupos do IPCA para a Inflação Mensal
 &lt;/div&gt;
 &lt;p&gt;A Figura &lt;a href=&#34;#fig:indicesgerais&#34;&gt;3.4&lt;/a&gt; demonstra a variação percentual dos principais índices da Fundação Getúlio Vargas entre 2010 e início de 2021.&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:indicesgerais&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/indicesgerais-1.png&#34; alt=&#34;Variação percentual dos principais índices da FGV --- 2010--2021&#34; width=&#34;864&#34; /&gt;
+&lt;img src=&#34;https://charlessouza.com/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/indicesgerais-1.png&#34; alt=&#34;Variação percentual dos principais índices da FGV --- 2010--2021&#34; width=&#34;864&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figura 3.4: Variação percentual dos principais índices da FGV — 2010–2021
 &lt;/p&gt;
@@ -205,7 +205,7 @@ Figura 3.4: Variação percentual dos principais índices da FGV — 2010–2021
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;A Figura &lt;a href=&#34;#fig:ipcaigpm&#34;&gt;3.5&lt;/a&gt; mostra a taxa de varição anual do IGP-M e do IPCA entre 2010 e início de 2021.&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:ipcaigpm&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/ipcaigpm-1.png&#34; alt=&#34;IPCA $vs$ IGP-M&#34; width=&#34;864&#34; /&gt;
+&lt;img src=&#34;https://charlessouza.com/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/ipcaigpm-1.png&#34; alt=&#34;IPCA $vs$ IGP-M&#34; width=&#34;864&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figura 3.5: IPCA &lt;span class=&#34;math inline&#34;&gt;\(vs\)&lt;/span&gt; IGP-M
 &lt;/p&gt;
@@ -344,7 +344,7 @@ Custo Unitário Básico (CUB) da construção civil do estado de São Paulo
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:deflacionamento&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/deflacionamento-1.png&#34; alt=&#34;Produto Interno Bruto Nominal e Real&#34; width=&#34;864&#34; /&gt;
+&lt;img src=&#34;https://charlessouza.com/courses/macroeconomia/fundamentos-da-macroeconomia/fundamentos_files/figure-html/deflacionamento-1.png&#34; alt=&#34;Produto Interno Bruto Nominal e Real&#34; width=&#34;864&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figura 3.6: Produto Interno Bruto Nominal e Real
 &lt;/p&gt;
@@ -488,13 +488,13 @@ VASCONCELLOS, M. A. S.; GARCIA, M. E. &lt;strong&gt;Fundamentos de &lt;span&gt;E
     
     <item>
       <title>Produto agregado</title>
-      <link>/courses/macroeconomia/produto/</link>
+      <link>https://charlessouza.com/courses/macroeconomia/produto/</link>
       <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
-      <guid>/courses/macroeconomia/produto/</guid>
+      <guid>https://charlessouza.com/courses/macroeconomia/produto/</guid>
       <description>
-&lt;script src=&#34;/courses/macroeconomia/produto/index.pt_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;/courses/macroeconomia/produto/index.pt_files/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;/courses/macroeconomia/produto/index.pt_files/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://charlessouza.com/courses/macroeconomia/produto/index.pt_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://charlessouza.com/courses/macroeconomia/produto/index.pt_files/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://charlessouza.com/courses/macroeconomia/produto/index.pt_files/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
 
 
 &lt;style type=&#34;text/css&#34;&gt;
@@ -674,7 +674,7 @@ No modelo básico, a economia estará em equilíbrio quando os vazamentos forem 
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:pibanual&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/courses/macroeconomia/produto/index.pt_files/figure-html/pibanual-1.png&#34; alt=&#34;Produto Interno Bruto dos grandes setores da economia&#34; width=&#34;864&#34; /&gt;
+&lt;img src=&#34;https://charlessouza.com/courses/macroeconomia/produto/index.pt_files/figure-html/pibanual-1.png&#34; alt=&#34;Produto Interno Bruto dos grandes setores da economia&#34; width=&#34;864&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figura 2.1: Produto Interno Bruto dos grandes setores da economia
 &lt;/p&gt;
@@ -816,7 +816,7 @@ Total
 &lt;p&gt;A Figura &lt;a href=&#34;#fig:renda&#34;&gt;2.2&lt;/a&gt; demonstra como o IBGE explicita o PIB sob a ótica da renda.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:renda&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/courses/macroeconomia/produto/index.pt_files/figure-html/renda-1.png&#34; alt=&#34;Produto Interno Bruto sob a ótica da renda&#34; width=&#34;864&#34; /&gt;
+&lt;img src=&#34;https://charlessouza.com/courses/macroeconomia/produto/index.pt_files/figure-html/renda-1.png&#34; alt=&#34;Produto Interno Bruto sob a ótica da renda&#34; width=&#34;864&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figura 2.2: Produto Interno Bruto sob a ótica da renda
 &lt;/p&gt;
@@ -873,7 +873,7 @@ Y = C + I + G + (X-M)
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;A Figura &lt;a href=&#34;#fig:interanualgraph&#34;&gt;2.3&lt;/a&gt; mostra a variação do PIB e de seus componentes em relação ao mesmo trimestre do ano anterior segundo a ótica da demanda.&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:interanualgraph&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/courses/macroeconomia/produto/index.pt_files/figure-html/interanualgraph-1.png&#34; alt=&#34;Variação interanual dos PIB sob a ótica da demanda&#34; width=&#34;864&#34; /&gt;
+&lt;img src=&#34;https://charlessouza.com/courses/macroeconomia/produto/index.pt_files/figure-html/interanualgraph-1.png&#34; alt=&#34;Variação interanual dos PIB sob a ótica da demanda&#34; width=&#34;864&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figura 2.3: Variação interanual dos PIB sob a ótica da demanda
 &lt;/p&gt;
@@ -1224,11 +1224,11 @@ VASCONCELLOS, M. A. S.; GARCIA, M. E. &lt;strong&gt;Fundamentos de &lt;span&gt;E
     
     <item>
       <title>Modelo Keynesiano Simples</title>
-      <link>/courses/macroeconomia/modelo-keynesiano-simples/keynesiano/</link>
+      <link>https://charlessouza.com/courses/macroeconomia/modelo-keynesiano-simples/keynesiano/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      <guid>/courses/macroeconomia/modelo-keynesiano-simples/keynesiano/</guid>
+      <guid>https://charlessouza.com/courses/macroeconomia/modelo-keynesiano-simples/keynesiano/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://charlessouza.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 </description>
@@ -1236,11 +1236,11 @@ VASCONCELLOS, M. A. S.; GARCIA, M. E. &lt;strong&gt;Fundamentos de &lt;span&gt;E
     
     <item>
       <title>Sistema Monetário</title>
-      <link>/courses/macroeconomia/monetario/monetario/</link>
+      <link>https://charlessouza.com/courses/macroeconomia/monetario/monetario/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      <guid>/courses/macroeconomia/monetario/monetario/</guid>
+      <guid>https://charlessouza.com/courses/macroeconomia/monetario/monetario/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://charlessouza.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;teste 2&lt;/p&gt;
@@ -1249,11 +1249,11 @@ VASCONCELLOS, M. A. S.; GARCIA, M. E. &lt;strong&gt;Fundamentos de &lt;span&gt;E
     
     <item>
       <title>Longo Prazo</title>
-      <link>/courses/macroeconomia/longo-prazo/longoprazo/</link>
+      <link>https://charlessouza.com/courses/macroeconomia/longo-prazo/longoprazo/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      <guid>/courses/macroeconomia/longo-prazo/longoprazo/</guid>
+      <guid>https://charlessouza.com/courses/macroeconomia/longo-prazo/longoprazo/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://charlessouza.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 </description>
@@ -1261,11 +1261,11 @@ VASCONCELLOS, M. A. S.; GARCIA, M. E. &lt;strong&gt;Fundamentos de &lt;span&gt;E
     
     <item>
       <title>Curto Prazo</title>
-      <link>/courses/macroeconomia/curto-prazo/curtoprazo/</link>
+      <link>https://charlessouza.com/courses/macroeconomia/curto-prazo/curtoprazo/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      <guid>/courses/macroeconomia/curto-prazo/curtoprazo/</guid>
+      <guid>https://charlessouza.com/courses/macroeconomia/curto-prazo/curtoprazo/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://charlessouza.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 </description>
@@ -1273,11 +1273,11 @@ VASCONCELLOS, M. A. S.; GARCIA, M. E. &lt;strong&gt;Fundamentos de &lt;span&gt;E
     
     <item>
       <title>Economia Intertemporal</title>
-      <link>/courses/macroeconomia/macroeconomia-intertemporal/intertemporal/</link>
+      <link>https://charlessouza.com/courses/macroeconomia/macroeconomia-intertemporal/intertemporal/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      <guid>/courses/macroeconomia/macroeconomia-intertemporal/intertemporal/</guid>
+      <guid>https://charlessouza.com/courses/macroeconomia/macroeconomia-intertemporal/intertemporal/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://charlessouza.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 </description>
@@ -1285,11 +1285,11 @@ VASCONCELLOS, M. A. S.; GARCIA, M. E. &lt;strong&gt;Fundamentos de &lt;span&gt;E
     
     <item>
       <title>Política Econômica</title>
-      <link>/courses/macroeconomia/politica-economica/politicaeconomica/</link>
+      <link>https://charlessouza.com/courses/macroeconomia/politica-economica/politicaeconomica/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
-      <guid>/courses/macroeconomia/politica-economica/politicaeconomica/</guid>
+      <guid>https://charlessouza.com/courses/macroeconomia/politica-economica/politicaeconomica/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://charlessouza.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 </description>
